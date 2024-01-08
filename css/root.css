@@ -1,0 +1,15 @@
+:root{
+    --body:#fff;
+    --commonColor:#B50107;
+    --textColor:#828282;
+    --textSemiColor:#000000;
+    --bottonGradiant:linear-gradient(103.94deg, #F3831F 25.63%, #DA3D27 88.71%);
+    --boderReduceMain:10px;
+    --boderReduceSemi:5px;
+    --navfontSize:12px;
+    --fourFont:400;
+    --fiveFont:500;
+    --sixFont:600;
+    --titlefontSize:22px;
+    --pfontSize:14px;
+}
