@@ -135,8 +135,8 @@
     function c(t) {
       (o = []), (a.textAlign = "center");
       for (var e = t.textList.length, i = 0; i < e; i++) {
-        var n = Math.random() * (r.width - 200) + 100,
-          l = Math.random() * (r.height - 200) + 100,
+        var n = Math.random() * (r.width - 500) + 200,
+          l = Math.random() * (r.height - 500) + 200,
           h = Math.random() * (t.maxSpeed - t.minSpeed) + t.minSpeed,
           c = Math.random() * (t.maxSpeed - t.minSpeed) + t.minSpeed;
         o.push(
