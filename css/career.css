@@ -734,3 +734,7 @@
     margin-bottom: 0rem;
   }
 }
+
+.lineProgresBarContainer:first-child {
+  display: none;
+}
