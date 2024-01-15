@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet"/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css?ver=1.0.0' type='text/css' media='all' />
+
     <link href="https://unpkg.com/aos@2.3.0/dist/aos.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css" />
 
@@ -46,9 +48,7 @@
   </video>
   <nav class="navbar-container" id="navbarContainer">
       <div class="logo">
-        <a href="#"
-          ><img src="img/logo/logo.svg" alt="logo" class="logo slogo" id="logo"
-        /></a>
+        <a href="index.html"><img src="img/logo/logo.svg" alt="logo" class="logo slogo" id="logo"/></a>
       </div>
       <div class="navbar-menu">
         <a href="#" class="mobileLogo"
@@ -59,14 +59,14 @@
             id="logo"
         /></a>
         <ul>
-          <li class="nav-item active"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#">About</a></li>
-          <li class="nav-item"><a href="#">Services</a></li>
-          <li class="nav-item"><a href="#">Solutions</a></li>
+          <li class="nav-item active"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="about.html">About</a></li>
+          <li class="nav-item"><a href="service.html">Services</a></li>
+          <li class="nav-item"><a href="our-solutions.html">Solutions</a></li>
           <li class="nav-item"><a href="#">Store</a></li>
-          <li class="nav-item"><a href="#">Blog</a></li>
-          <li class="nav-item"><a href="#">Contact</a></li>
-          <li class="nav-item"><a href="#">Career</a></li>
+          <li class="nav-item"><a href="blog.html">Blog</a></li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+          <li class="nav-item"><a href="career.html">Career</a></li>
         </ul>
       </div>
       <div class="menu-toggle">
@@ -121,11 +121,24 @@
       <div class="weProvide">
         <div class="center_content flex-wrap">
           <div class="weProvideLeftSide">
-            <div class="fourtheen wow pulse" data-wow-delay="300ms" data-wow-iteration="infinite" data-wow-duration="2s" >
-              <!-- <img src="img/about-batch.svg" alt=""> -->
+            <div class="office_video_slider owl-carousel">
+              <div class="office_video gradient_video_item">
+                <a data-fancybox="video-gallery" href="https://youtu.be/abikd9AdOn0?si=KGjczyTgCItedzdu"><span class="tp_play_btn"></span>
+                <img decoding="async" src="img/feature/01.jpg" alt="">
+                </a></div>
+                <div class="office_video gradient_video_item">
+                <a data-fancybox="video-gallery" href="https://youtu.be/utkZ5lb8RMY?si=ivuZpWaYY_PGkJa2"><span class="tp_play_btn"></span>
+                <img decoding="async" src="img/feature/1.jpg" alt="">
+                </a></div>
+
+              </div>
+
+
+            <!-- <div class="fourtheen wow pulse" data-wow-delay="300ms" data-wow-iteration="infinite" data-wow-duration="2s" >
               <span> 17+ <br />Years<br />Success</span>
             </div>
-            <canvas id="tp__canvas"></canvas>
+            <canvas id="tp__canvas"></canvas> -->
+
           </div>
           <div class="weProvideRightSide">
             <div class="weProvideTitle">
@@ -627,10 +640,11 @@
     <script src="js/TweenMax.min.js"></script>
 
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
-    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <!-- <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> -->
     <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js?ver=1.0.0" defer data-deferred="1"></script>
     <script src="js/jquery.counterup.js"></script>
 
 
@@ -643,8 +657,8 @@
     <script>
       particlesJS("particles-js3", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#f6d2d2"},"shape":{"type":"circle","stroke":{"width":9,"color":"#f6d2d2"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":1,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":5,"random":true,"anim":{"enable":false,"speed":40,"size_min":0,"sync":true}},"line_linked":{"enable":true,"distance":150,"color":"#f6d2d2","opacity":1,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"window","events":{"onhover":{"enable":false,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
     </script>
+    
     <script>
-
       AOS.init({
         duration: 1200,
       })
@@ -654,23 +668,23 @@
             time: 1000
         });
 
-      var PrticalObject = {
-        languageName: [
-          "Natural Language Processing, HTML, CSS, JavaScript, PHP, Java, Python, Laravel, Mysql, React.Js, Node.Js, Express.JS, MongoDB, ASP.Net, C#, Angular, React Native, Web Development, Mobile Apps Development, Cyber Security, Genomics,",
-        ],
-        particalColorR: 209,
-        particalColorG: 29,
-        particalColorB: 39,
-        particaTextSize: 18,
-        particalTextColor: "#D11D27",
-        particalPointSize: 1,
-        prticalPointColor: "#D11D27",
-        particalSpeed: 0.5,
-        particalLineWidth: 2,
-      };
+      // var PrticalObject = {
+      //   languageName: [
+      //     "Natural Language Processing, HTML, CSS, JavaScript, PHP, Java, Python, Laravel, Mysql, React.Js, Node.Js, Express.JS, MongoDB, ASP.Net, C#, Angular, React Native, Web Development, Mobile Apps Development, Cyber Security, Genomics,",
+      //   ],
+      //   particalColorR: 209,
+      //   particalColorG: 29,
+      //   particalColorB: 39,
+      //   particaTextSize: 25,
+      //   particalTextColor: "#D11D27",
+      //   particalPointSize: 1,
+      //   prticalPointColor: "#D11D27",
+      //   particalSpeed: 0.5,
+      //   particalLineWidth: 2,
+      // };
      
     </script>
-    <script src="js/partical.js"></script>
+    <!-- <script src="js/partical.js"></script> -->
 
     
     <script>
@@ -727,6 +741,28 @@
           cssEase: 'ease-in-out',
           touchThreshold: 100
         })
+
+       $('.office_video_slider').owlCarousel({
+            loop:true,
+            margin: 0,
+            items: 1,
+            nav:false,
+            mouseDrag: true,
+            touchDrag: true,
+            dots:false,
+            slideBy: 1,
+            dotsEach: 1,
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
+            autoplay:true,
+            // autoplayTimeout:4000,
+            responsiveClass:true,
+            responsive: {
+                0: {
+                    items: 1,
+                }
+            },
+        });
 
         $('#service_carousel').owlCarousel({
             loop:true,
