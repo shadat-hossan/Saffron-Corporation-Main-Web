@@ -27,14 +27,11 @@
       rel="stylesheet"
     />
     <link href="https://unpkg.com/aos@2.3.0/dist/aos.css" rel="stylesheet" />
-
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css?ver=1.0.0' type='text/css' media='all' />
     <link rel="stylesheet" href="css/style.css" />
-
     <link rel="stylesheet" href="css/swiper.css" />
-
     <!-- About page css link -->
     <link rel="stylesheet" href="css/about.css" />
-
     <!-- Career page css link -->
     <link rel="stylesheet" href="css/career.css" />
   </head>
@@ -114,19 +111,14 @@
         <img src="img/career/career.jpg" alt="" />
       </div>
       <div class="careerRigit">
-        <h1>
-          LET'S START <br />
-          CAREERS <br />
-          HERE
-        </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur <br />
-          adipisicing elit.
-        </p>
+        <h1> LET'S START <br />CAREERS <br />HERE</h1>
+        <p> Lorem ipsum dolor sit amet consectetur <br />adipisicing elit.</p>
         <div class="playAndLearn">
+          <a data-fancybox="video-gallery" href="https://youtu.be/abikd9AdOn0?si=KGjczyTgCItedzdu">
           <div class="play">
             <img class="playIcon" src="img/career/Polygon 2.svg" alt="" />
           </div>
+          </a>
           <div class="hadLarenMor">
             <button class="hadLarenMorBtn">
               <i class="fa-solid fa-arrow-right"></i> Learn More
@@ -451,9 +443,7 @@
                 </div>
 
                 <div class="progres-couont-bar">
-                  <span class="progres-per itrm1">
-                    <!-- <span class="number-count">90%</span> -->
-                  </span>
+                  <span class="progres-per trusted"></span>
                 </div>
               </div>
             </div>
@@ -466,9 +456,7 @@
                 </div>
 
                 <div class="progres-couont-bar">
-                  <span class="progres-per itrm2">
-                    <!-- <span class="number-count">70%</span> -->
-                  </span>
+                  <span class="progres-per partners"></span>
                 </div>
               </div>
             </div>
@@ -481,9 +469,7 @@
                 </div>
 
                 <div class="progres-couont-bar">
-                  <span class="progres-per itrm3">
-                    <!-- <span class="number-count">65%</span> -->
-                  </span>
+                  <span class="progres-per professional"></span>
                 </div>
               </div>
             </div>
@@ -700,264 +686,31 @@
     <script src="js/wow.js"></script>
     <script src="js/TweenMax.min.js"></script>
 
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js?ver=1.0.0" defer data-deferred="1"></script>
     <script src="js/jquery.counterup.js"></script>
+    <script>
+      var skills = {
+        trusted: 90,
+        partners: 70,
+        professional: 65,
+      };
 
-    <script>
-      particlesJS("particles-js2", {
-        particles: {
-          number: { value: 80, density: { enable: true, value_area: 800 } },
-          color: { value: "#f6d2d2" },
-          shape: {
-            type: "circle",
-            stroke: { width: 9, color: "#f6d2d2" },
-            polygon: { nb_sides: 5 },
-            image: { src: "img/github.svg", width: 100, height: 100 },
+      $.each(skills, function(key, value) {
+        var skillbar = $("." + key);
+
+        skillbar.animate(
+          {
+            width: value + "%"
           },
-          opacity: {
-            value: 1,
-            random: true,
-            anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false },
-          },
-          size: {
-            value: 5,
-            random: true,
-            anim: { enable: false, speed: 40, size_min: 0, sync: true },
-          },
-          line_linked: {
-            enable: true,
-            distance: 150,
-            color: "#f6d2d2",
-            opacity: 1,
-            width: 1,
-          },
-          move: {
-            enable: true,
-            speed: 6,
-            direction: "none",
-            random: false,
-            straight: false,
-            out_mode: "out",
-            bounce: false,
-            attract: { enable: false, rotateX: 600, rotateY: 1200 },
-          },
-        },
-        interactivity: {
-          detect_on: "window",
-          events: {
-            onhover: { enable: false, mode: "repulse" },
-            onclick: { enable: true, mode: "push" },
-            resize: true,
-          },
-          modes: {
-            grab: { distance: 400, line_linked: { opacity: 1 } },
-            bubble: {
-              distance: 400,
-              size: 40,
-              duration: 2,
-              opacity: 8,
-              speed: 3,
-            },
-            repulse: { distance: 200, duration: 0.4 },
-            push: { particles_nb: 4 },
-            remove: { particles_nb: 2 },
-          },
-        },
-        retina_detect: true,
-      });
-      var count_particles, stats, update;
-      stats = new Stats();
-      stats.setMode(0);
-      stats.domElement.style.position = "absolute";
-      stats.domElement.style.left = "0px";
-      stats.domElement.style.top = "0px";
-      document.body.appendChild(stats.domElement);
-      count_particles = document.querySelector(".js-count-particles");
-      update = function () {
-        stats.begin();
-        stats.end();
-        if (
-          window.pJSDom[0].pJS.particles &&
-          window.pJSDom[0].pJS.particles.array
-        ) {
-          count_particles.innerText =
-            window.pJSDom[0].pJS.particles.array.length;
-        }
-        requestAnimationFrame(update);
-      };
-      requestAnimationFrame(update);
-    </script>
-    <script>
-      particlesJS("particles-js1", {
-        particles: {
-          number: { value: 80, density: { enable: true, value_area: 800 } },
-          color: { value: "#f6d2d2" },
-          shape: {
-            type: "circle",
-            stroke: { width: 9, color: "#f6d2d2" },
-            polygon: { nb_sides: 5 },
-            image: { src: "img/github.svg", width: 100, height: 100 },
-          },
-          opacity: {
-            value: 1,
-            random: true,
-            anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false },
-          },
-          size: {
-            value: 5,
-            random: true,
-            anim: { enable: false, speed: 40, size_min: 0, sync: true },
-          },
-          line_linked: {
-            enable: true,
-            distance: 150,
-            color: "#f6d2d2",
-            opacity: 1,
-            width: 1,
-          },
-          move: {
-            enable: true,
-            speed: 6,
-            direction: "none",
-            random: false,
-            straight: false,
-            out_mode: "out",
-            bounce: false,
-            attract: { enable: false, rotateX: 600, rotateY: 1200 },
-          },
-        },
-        interactivity: {
-          detect_on: "window",
-          events: {
-            onhover: { enable: false, mode: "repulse" },
-            onclick: { enable: true, mode: "push" },
-            resize: true,
-          },
-          modes: {
-            grab: { distance: 400, line_linked: { opacity: 1 } },
-            bubble: {
-              distance: 400,
-              size: 40,
-              duration: 2,
-              opacity: 8,
-              speed: 3,
-            },
-            repulse: { distance: 200, duration: 0.4 },
-            push: { particles_nb: 4 },
-            remove: { particles_nb: 2 },
-          },
-        },
-        retina_detect: true,
-      });
-      var count_particles, stats, update;
-      stats = new Stats();
-      stats.setMode(0);
-      stats.domElement.style.position = "absolute";
-      stats.domElement.style.left = "0px";
-      stats.domElement.style.top = "0px";
-      document.body.appendChild(stats.domElement);
-      count_particles = document.querySelector(".js-count-particles");
-      update = function () {
-        stats.begin();
-        stats.end();
-        if (
-          window.pJSDom[0].pJS.particles &&
-          window.pJSDom[0].pJS.particles.array
-        ) {
-          count_particles.innerText =
-            window.pJSDom[0].pJS.particles.array.length;
-        }
-        requestAnimationFrame(update);
-      };
-      requestAnimationFrame(update);
-    </script>
-    <script>
-      particlesJS("particles-js3", {
-        particles: {
-          number: { value: 80, density: { enable: true, value_area: 800 } },
-          color: { value: "#f6d2d2" },
-          shape: {
-            type: "circle",
-            stroke: { width: 9, color: "#f6d2d2" },
-            polygon: { nb_sides: 5 },
-            image: { src: "img/github.svg", width: 100, height: 100 },
-          },
-          opacity: {
-            value: 1,
-            random: true,
-            anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false },
-          },
-          size: {
-            value: 5,
-            random: true,
-            anim: { enable: false, speed: 40, size_min: 0, sync: true },
-          },
-          line_linked: {
-            enable: true,
-            distance: 150,
-            color: "#f6d2d2",
-            opacity: 1,
-            width: 1,
-          },
-          move: {
-            enable: true,
-            speed: 6,
-            direction: "none",
-            random: false,
-            straight: false,
-            out_mode: "out",
-            bounce: false,
-            attract: { enable: false, rotateX: 600, rotateY: 1200 },
-          },
-        },
-        interactivity: {
-          detect_on: "window",
-          events: {
-            onhover: { enable: false, mode: "repulse" },
-            onclick: { enable: true, mode: "push" },
-            resize: true,
-          },
-          modes: {
-            grab: { distance: 400, line_linked: { opacity: 1 } },
-            bubble: {
-              distance: 400,
-              size: 40,
-              duration: 2,
-              opacity: 8,
-              speed: 3,
-            },
-            repulse: { distance: 200, duration: 0.4 },
-            push: { particles_nb: 4 },
-            remove: { particles_nb: 2 },
-          },
-        },
-        retina_detect: true,
-      });
-      var count_particles, stats, update;
-      stats = new Stats();
-      stats.setMode(0);
-      stats.domElement.style.position = "absolute";
-      stats.domElement.style.left = "0px";
-      stats.domElement.style.top = "0px";
-      document.body.appendChild(stats.domElement);
-      count_particles = document.querySelector(".js-count-particles");
-      update = function () {
-        stats.begin();
-        stats.end();
-        if (
-          window.pJSDom[0].pJS.particles &&
-          window.pJSDom[0].pJS.particles.array
-        ) {
-          count_particles.innerText =
-            window.pJSDom[0].pJS.particles.array.length;
-        }
-        requestAnimationFrame(update);
-      };
-      requestAnimationFrame(update);
+          3000,
+          function() {
+            $(".speech-bubble").fadeIn();
+          }
+        );
+      }); 
     </script>
     <script>
       AOS.init({
@@ -968,100 +721,9 @@
         delay: 10,
         time: 1000,
       });
-
-      var PrticalObject = {
-        languageName: [
-          "Natural Language Processing, HTML, CSS, JavaScript, PHP, Java, Python, Laravel, Mysql, React.Js, Node.Js, Express.JS, MongoDB, ASP.Net, C#, Angular, React Native, Web Development, Mobile Apps Development, Cyber Security, Genomics,",
-        ],
-        particalColorR: 209,
-        particalColorG: 29,
-        particalColorB: 39,
-        particaTextSize: 18,
-        particalTextColor: "#D11D27",
-        particalPointSize: 1,
-        prticalPointColor: "#D11D27",
-        particalSpeed: 0.5,
-        particalLineWidth: 2,
-      };
     </script>
-    <script src="js/partical.js"></script>
-
+  
     <script>
-      (function (jQuery) {
-        jQuery(window).on("load", function () {
-          handlePreloader();
-        });
-        function handlePreloader() {
-          if (jQuery(".preloader").length) {
-            jQuery(".preloader").delay(3000).fadeOut();
-          }
-        }
-      })(jQuery);
-
-      (function ($) {
-        var preLoderLi = $(".preload li"),
-          pageDiv = $(".page-transition .div"),
-          slideDown = new TimelineMax({ paused: true }),
-          loading = new TimelineMax({ paused: true, repeat: 2 }),
-          slideUp = new TimelineMax({ paused: true }),
-          loadAnimation = new TimelineMax({ repeat: -1 });
-        slideDown.staggerTo(
-          pageDiv,
-          0.5,
-          {
-            bottom: "0%",
-            ease: Power2.easeIn,
-          },
-          0.2
-        );
-        loading
-          .staggerFrom(
-            preLoderLi,
-            0.5,
-            {
-              y: -15,
-              autoAlpha: 0,
-              ease: Power1.easeIn,
-            },
-            0.2
-          )
-          .staggerTo(
-            preLoderLi,
-            0.5,
-            {
-              y: 35,
-              autoAlpha: 0,
-              ease: Power1.easeIn,
-            },
-            0.1
-          );
-        slideUp.staggerTo(
-          pageDiv,
-          0.5,
-          {
-            bottom: "100%",
-            ease: Power2.easeOut,
-          },
-          0.2
-        );
-        loadAnimation
-          .add(slideDown.play(), 0.5)
-          .add(loading.play())
-          .add(slideUp.play());
-      })(jQuery);
-
-      $(".slider").slick({
-        draggable: true,
-        autoplay: true,
-        autoplaySpeed: 6000,
-        arrows: false,
-        dots: false,
-        fade: true,
-        speed: 500,
-        infinite: true,
-        cssEase: "ease-in-out",
-        touchThreshold: 100,
-      });
 
       $("#service_carousel").owlCarousel({
         loop: true,
@@ -1115,7 +777,7 @@
             items: 2,
             margin: 0,
             rows: true,
-            dotsEach: 3,
+            dotsEach: 5,
             dots: true,
             rowsCount: 2,
           },

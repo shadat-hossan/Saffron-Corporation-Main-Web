@@ -37,16 +37,21 @@
   </head>
 
   <body>
-    <!--  <div class="preloader_area preloader">
+    <div class="preloader_area preloader">
       <div class="page-transition">
+
+        <!-- <div class="div"></div>
         <div class="div"></div>
         <div class="div"></div>
         <div class="div"></div>
         <div class="div"></div>
         <div class="div"></div>
-        <div class="div"></div>
-        <div class="div"></div>
+        <div class="div"></div> -->
+
+         
+        <div class="spinner spinner2"></div>
         <ul class="preload">
+
           <li><img src="img/s.svg" alt="s" /></li>
           <li><img src="img/a.svg" alt="a" /></li>
           <li><img src="img/f.svg" alt="f" /></li>
@@ -55,8 +60,9 @@
           <li><img src="img/o.svg" alt="o" /></li>
           <li><img src="img/n.svg" alt="n" /></li>
         </ul>
+
       </div>
-    </div> -->
+    </div>
     <nav class="navbar-container" id="navbarContainer">
       <div class="logo">
         <a href="#"
@@ -75,11 +81,11 @@
           <li class="nav-item"><a href="index.html">Home</a></li>
           <li class="nav-item active"><a href="about.html">About</a></li>
           <li class="nav-item"><a href="service.html">Services</a></li>
-          <li class="nav-item"><a href="#">Solutions</a></li>
+          <li class="nav-item"><a href="our-solutions.html">Solutions</a></li>
           <li class="nav-item"><a href="#">Store</a></li>
-          <li class="nav-item"><a href="#">Blog</a></li>
-          <li class="nav-item"><a href="#">Contact</a></li>
-          <li class="nav-item"><a href="#">Career</a></li>
+          <li class="nav-item"><a href="blog.html">Blog</a></li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+          <li class="nav-item"><a href="career.html">Career</a></li>
         </ul>
       </div>
       <div class="menu-toggle">
@@ -1364,53 +1370,54 @@
         e.preventDefault();
       });
 
-      $(".services-slider").owlCarousel({
-        loop: true,
-        margin: 0,
-        items: 6,
-        nav: false,
-        mouseDrag: false,
-        touchDrag: true,
-        dots: false,
-        slideBy: 1,
-        dotsEach: 1,
-        responsiveClass: true,
-        responsive: {
-          0: {
-            items: 1,
+      $('.services-slider').owlCarousel({
+            loop:true,
             margin: 0,
-            rows: true,
-            dotsEach: 3,
-            dots: false,
-            rowsCount: 2,
-            mouseDrag: true,
-          },
-          580: {
-            items: 2,
-            slideBy: 1,
-            dotsEach: 2,
-            mouseDrag: true,
-            dots: false,
-          },
-          768: {
-            items: 4,
-            slideBy: 1,
-            dotsEach: 2,
-            mouseDrag: true,
-            dots: false,
-          },
-          992: {
-            items: 5,
-            slideBy: 1,
-            dotsEach: 2,
-          },
-          1280: {
             items: 6,
+            nav:false,
+            mouseDrag: false,
+            touchDrag: true,
+            dots:false,
             slideBy: 1,
-            dotsEach: 2,
-          },
-        },
-      });
+            dotsEach: 1,
+            responsiveClass:true,
+            responsive: {
+                0: {
+                    items: 1,
+                    margin: 0,
+                    rows: true,
+                    dotsEach: 3,
+                    dots:false,
+                    rowsCount: 2,
+                    mouseDrag: true,
+                },
+                 580: {
+                    items: 2,
+                    slideBy: 1,
+                    dotsEach: 2,
+                    mouseDrag: true,
+                    dots:false,
+                },
+                768: {
+                    items: 4,
+                    slideBy: 1,
+                    dotsEach: 2,
+                    mouseDrag: true,
+                    dots:false,
+                },
+                992: {
+                    items: 5,
+                    slideBy: 1,
+                    dotsEach: 2,
+                },
+                1280: {
+                    items: 6,
+                    slideBy: 1,
+                    dotsEach: 2,
+                }
+            },
+        });
+
     </script>
     <!--  -->
     <script src="js/script.js"></script>

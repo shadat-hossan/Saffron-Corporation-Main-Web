@@ -169,7 +169,7 @@
      /* top: auto;
       */
       z-index: -1;
-      background-image: url(/img/menu/wave-01.svg);
+/*       background-image: url(/img/menu/wave-01.svg); */
       transform: rotate(308deg);
       background-repeat: no-repeat;
       background-size: 96% 118%;
