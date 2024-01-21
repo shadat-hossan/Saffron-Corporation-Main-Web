@@ -408,6 +408,7 @@ input[placeholder],
     position: relative;
     z-index: 3;
     background-color: #fff;
+    border-radius: 20px 20px 0 0;
 }
 .section_title {
     text-align: center;
@@ -1046,14 +1047,25 @@ html,body { overflow-x: hidden; }
   width: 75%;
 }
 }
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 991px){
 .footer {
  display: block;
 }
-.footer_social { padding-bottom:20px ; }
+.footer_social {
+  padding-bottom:20px ; 
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .footer_right {
   width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
+
 .footer_menu {
   display: block;
 }
@@ -1061,7 +1073,9 @@ html,body { overflow-x: hidden; }
 .footer_menu ul {
   gap:5px 15px; 
   padding-bottom: 10px;
+  justify-content: center;
 }
+.footer_menu p {text-align:center}
 }
 
 /* Start Happy Clients Say Section */
@@ -1461,7 +1475,7 @@ html,body { overflow-x: hidden; }
   display: flex;
   flex-direction: row;
   overflow: hidden;
-  padding: 25px 20px 0 20px;
+  padding: 25px 20px 60px 20px;
 }
 .weProvideLeftSide {
   width: 50%;
@@ -1808,8 +1822,10 @@ html,body { overflow-x: hidden; }
 .spinner2 {
   position: absolute;
   top: 30%;
-  left: 50%;
-  transform: translate(-50% , -50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+/*   transform: translate(-50% , -50%); */
   width: 80px;
   height: 80px;
   margin: 0 auto;
@@ -1837,3 +1853,99 @@ html,body { overflow-x: hidden; }
     opacity: 0;
   }
 }
+
+.tree_animation {
+  max-height:44vw;
+  overflow: hidden;
+}
+#backbutton {
+  display: inline-block;
+  background: url('../img/arrow_up.svg') no-repeat center;
+  background-size: 22px auto;
+  background-color: #B50107;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#backbutton:hover {
+  cursor: pointer;
+  background-color: #f3831f;
+}
+#backbutton:active {
+  background-color: #f3831f;
+}
+#backbutton.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.webline {
+  width: 100%;
+  position:   absolute;
+  left: 0;
+  top: 0;
+  transform: rotate(0deg);
+}
+
+.circle {
+  position: absolute;
+  bottom: 0;
+  width: 15px;
+  aspect-ratio: 1/1;
+  background-color: #B50107;
+  box-shadow: 1px 1px 10px #B50107, 1px 1px 20px #B50107, 1px 1px 30px #B50107;
+  border-radius: 50%;
+  animation: webline 5s linear forwards;
+  position: relative;
+  z-index: -1;
+}
+
+@keyframes webline {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}
+
+.circle::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 25%;
+  width: 50%;
+  height: 100vh;
+  opacity: 0.5;
+  background: linear-gradient(#B50107, transparent);
+  z-index: -1;
+}
+
+.weblines {
+  /* height: 100%; */
+  width: 100%;
+  transform: rotate(180deg);
+  position:   absolute;
+  left: 0;
+  top: 0;
+}
+
+.contantBox {
+  z-index: 10;
+}
+.single_banner_area { overflow: hidden; }

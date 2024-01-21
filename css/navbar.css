@@ -125,6 +125,7 @@
   .navbar-container .mobileLogo{
       display: block;
       text-align: center;
+      margin-left: 25px;
  }
   .navbar-container .mobileLogo .mobileLogoImg{
       width: 80px;
@@ -149,6 +150,7 @@
   .navbar-container .navbar-menu ul li{
       padding-left: 30px;
  }
+ .navbar-container .navbar-menu ul li .menuItemsAllA { font-size: 16px; }
   .navbar-container .navbar-menu {
       position: fixed;
       width: 240px;
@@ -169,7 +171,7 @@
      /* top: auto;
       */
       z-index: -1;
-/*       background-image: url(/img/menu/wave-01.svg); */
+      background-image: url(../img/menu/wave-01.svg);
       transform: rotate(308deg);
       background-repeat: no-repeat;
       background-size: 96% 118%;

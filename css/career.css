@@ -12,6 +12,7 @@
   height: 70vh;
   display: flex;
   background-color: #d9d9d9;
+  position: relative;
 }
 .careerLeft {
   width: 70%;
@@ -19,6 +20,7 @@
   clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
   background-color: rgb(0, 0, 0);
   position: relative;
+  z-index: 3;
 }
 
 .careerLeft img {
@@ -35,6 +37,23 @@
   justify-content: center;
   flex-direction: column;
   padding-right: 30px;
+  position: relative;
+}
+.career_banner_info {
+  position: relative;
+  z-index: 3;
+}
+.particles-nasa-box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+#particles-nasa {
+  width: 100%;
+  height: 100%;
 }
 
 .careerRigit h1 {
@@ -116,7 +135,7 @@
 .hadLarenMorBtn {
   border: none;
   background: #fff;
-  padding: 20px;
+  padding: 20px 20px 20px 15px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -126,6 +145,7 @@
   position: relative;
   cursor: pointer;
   transition: all 0.3s;
+  font-weight: 500;
 }
 
 .hadLarenMorBtn:hover {
@@ -204,16 +224,42 @@
 .maenbershipsBtn {
   padding: 10px 0;
   display: flex;
-  gap: 16px;
+  gap: 10px;
   border: none;
   border-radius: 8px;
   font-size: 16px;
+  font-weight: 500;
   color: var(--textColor);
   cursor: pointer;
   background: none;
-  transition: all 0.3s;
+  transition: all 0.3s; 
+  position: relative;
+  padding-left: 30px;
 }
-
+.hadLarenMorBtn span {
+  position: relative;
+  display: inline-block;
+  padding-left: 27px;
+}
+.hadLarenMorBtn span::after,
+.maenbershipsBtn::after {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background: url('../img/career/arrow-right-line.svg') no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -11px;
+  z-index: 2;
+}
+.maenbershipsBtn:hover::after {
+  background: url('../img/career/arrow-right-line-hover.svg') no-repeat;
+}
+.gloseCard:hover .gloseDe::after,
+.hadLarenMorBtn:hover span::after {
+  background: url('../img/career/arrow-right-line-white.svg') no-repeat;
+}
 .maenbershipsBtn:hover {
   color: var(--commonColor);
   letter-spacing: 1px;
@@ -662,6 +708,11 @@
   color: #fff;
   border-radius: 3px;
   transition: all 0.3s;
+  min-width: 32px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .jobCardTopSocial i:hover {

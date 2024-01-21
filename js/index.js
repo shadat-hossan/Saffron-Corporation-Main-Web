@@ -29,36 +29,19 @@ document.addEventListener('scroll', function () {
   }
 });
 
+var btn = $('#backbutton');
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
 
-// const storyReadMor = document.querySelector(".storyReadMor");
-// const hiddenText = document.querySelector("#hiddenText");
-// const dot = document.querySelector("#dot");
-
-// function any() {
-//   storyReadMor.addEventListener("click", () => {
-//     if (dot.style.display != "none") {
-//       hiddenText.style.display = "inline";
-//       dot.style.display = "none";
-//       storyReadMorImage.style.transform = "rotate(90deg)";
-//       storyReadMor.innerHTML = `Read Less <img
-//       src="img/logo/arrayUp.svg"
-//       alt="Read More Icon"
-//       id="storyReadMorImage"
-//     />`;
-//     } else {
-//       hiddenText.style.display = "none";
-//       dot.style.display = "inline";
-//       storyReadMorImage.style.transform = "rotate(0deg)";
-//       storyReadMor.innerHTML = `Read More <img
-//       src="img/logo/arrayDown.svg"
-//       alt="Read More Icon"
-//       id="storyReadMorImage"
-//     />`;
-//     }
-//   });
-// }
-
-// any();
 
 
 

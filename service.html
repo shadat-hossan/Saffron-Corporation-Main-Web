@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet"/>
     <link href="https://unpkg.com/aos@2.3.0/dist/aos.css" rel="stylesheet"/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css?ver=1.0.0' type='text/css' media='all' />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/service.css" />
 
@@ -27,7 +28,7 @@
         /></a>
       </div>
       <div class="navbar-menu">
-        <a href="#" class="mobileLogo"
+        <a href="index.html" class="mobileLogo"
           ><img
             src="img/logo/saffron-icon-logo.svg"
             alt="logo"
@@ -79,7 +80,17 @@
   <div class="weProvide weProvide2">
       <div class="center_content flex-wrap">
         <div class="weProvideLeftSide left_feature_photo" data-aos="fade-right">
-         <img src="img/feature/photo2.jpg" alt="">
+         <!-- <img src="img/feature/photo2.jpg" alt=""> -->
+         <div class="office_video_slider owl-carousel">
+              <div class="office_video gradient_video_item">
+                <a data-fancybox="video-gallery" href="https://youtu.be/abikd9AdOn0?si=KGjczyTgCItedzdu"><span class="tp_play_btn"></span>
+                <img decoding="async" src="img/feature/01.jpg" alt="">
+                </a></div>
+                <div class="office_video gradient_video_item">
+                <a data-fancybox="video-gallery" href="https://youtu.be/utkZ5lb8RMY?si=ivuZpWaYY_PGkJa2"><span class="tp_play_btn"></span>
+                <img decoding="async" src="img/feature/1.jpg" alt="">
+                </a></div>
+              </div>
         </div>
         <div class="weProvideRightSide" data-aos="fade-left">
           <div class="weProvideTitle">
@@ -301,13 +312,15 @@
     </div>
 
     <div class="contact_banner_area">
-      <img src="img/hero/banner_contact.png" alt="">
+      <img src="img/feature/feature3.png" alt="">
       <div class="contact_banner_info">
         <div class="info_center_box">
           <h3>Let Us Help You With Your Project</h3>
           <a class="red-button" href="#">Contact Us</a>
         </div>
       </div>
+      <div class="webline"></div>
+      <div class="weblines"></div>
     </div>
 
     <div class="footer_area">
@@ -336,7 +349,7 @@
         </div>
       </div>
     </div>
-
+    <a id="backbutton"></a>
 
 
 
@@ -353,7 +366,9 @@
     <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js?ver=1.0.0" defer data-deferred="1"></script>
     <script src="js/jquery.counterup.js"></script>
+    <script src="js/service.js"></script>
 
  
   
@@ -403,6 +418,27 @@
                 }
             },
         });
+        $('.office_video_slider').owlCarousel({
+              loop:true,
+              margin: 0,
+              items: 1,
+              nav:false,
+              mouseDrag: true,
+              touchDrag: true,
+              dots:false,
+              slideBy: 1,
+              dotsEach: 1,
+              animateOut: 'fadeOut',
+              animateIn: 'fadeIn',
+              autoplay:true,
+              // autoplayTimeout:4000,
+              responsiveClass:true,
+              responsive: {
+                  0: {
+                      items: 1,
+                  }
+              },
+          });
     
     </script>
       

@@ -151,7 +151,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(90deg, rgba(255, 4, 4, 0.25) 2.21%, rgba(132, 14, 14, 0.25) 99.84%);
+  background-color: rgba(0, 0, 0, 0.2);
+/*   background: linear-gradient(90deg, rgba(255, 4, 4, 0.25) 2.21%, rgba(132, 14, 14, 0.25) 99.84%); */
 }
 .info_center_box h3 {
   color: #FFFCFC;
@@ -481,4 +482,15 @@
 @media only screen and (max-width: 767px){
 .section_title h2 { font-size: 30px; }
 .section_title h2 strong { font-size: 38px; }
+}
+
+.contact_banner_area {
+  height: 400px;
+  overflow: hidden;
+}
+@media screen and ( max-width: 991px){
+.contact_banner_area {
+  height: 300px;
+} 
+
 }
