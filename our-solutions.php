@@ -241,30 +241,4 @@ as a Service (SaaS), Platform as a Service
       </div>
     </div>
 
-    <div class="footer_area">
-      <div class="footer center_content flex-wrap">
-        <div class="footer_social">
-          <h4>Stay Connected</h4>
-          <div class="social_box flex-nowrap d-flex">
-            <a href="#"><img src="assets/img/social/youtube.svg" alt=""></a>
-            <a href="#"><img src="assets/img/social/facebook.png" alt=""></a>
-            <a href="#"><img src="assets/img/social/instagram.png" alt=""></a>
-            <a href="#"><img src="assets/img/social/twitter.svg" alt=""></a>
-          </div>
-        </div>
-        <div class="footer_right">
-          <h4>Your Privacy Choices</h4>
-          <div class="footer_menu flex-wrap">
-            <ul>
-              <li><a href="#">Contact SCL</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Trademarks</a></li>
-              <li><a href="#">Work List</a></li>
-            </ul>
-            <p>Copyright &copy; 2023 SCL. All rights reserved.</p>
-          </div>
-        </div>
-      </div>
-    </div>
     <?php include('footer.php');?>
