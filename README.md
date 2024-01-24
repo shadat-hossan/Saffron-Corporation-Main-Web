@@ -17,7 +17,7 @@
 how can you set up your project??
 
 ```bash
-  1. git clone https://github.com/shadat-hossan/Saffron-Corporation.git
+  1. git clone git@github.com:shadat-hossan/Saffron-Corporation-Main-Web.git
 ```
 
 ```bash

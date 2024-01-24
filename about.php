@@ -4,8 +4,8 @@
      <div class="single_banner_info">
         <h1>About Us</h1>
      </div>
-      <div id="webline"></div>
-      <div id="weblines"></div>
+      <div class="webline"></div>
+      <div class="weblines"></div>
    </div>
     <!-- Start About Header Section -->
     <section class="avoutHeader">
@@ -817,6 +817,4 @@
       ></iframe>
     </section>
     <!-- End locations Section  -->
-    <!-- wev line particuler javaScript -->
-    
     <?php include('footer.php');?>

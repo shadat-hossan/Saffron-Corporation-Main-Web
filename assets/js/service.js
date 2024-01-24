@@ -1,11 +1,11 @@
-const textDiv = document.getElementById("webline");
+const textDiv = document.querySelector(".webline");
 
 if (textDiv) {
   function line() {
-    var sizeWidth = Math.random() * 12;
-    var duration = Math.random() * 3;
-    const textDiv = document.getElementById("webline");
-    var e = document.createElement("div");
+    let sizeWidth = Math.random() * 12;
+    let duration = Math.random() * 3;
+    let textDiv = document.querySelector(".webline");
+    let e = document.createElement("div");
     e.setAttribute("class", "circle");
     textDiv.appendChild(e);
     e.style.width = 2 + sizeWidth + "px";
@@ -20,10 +20,10 @@ if (textDiv) {
     line();
   }, 100);
   function lineLeft() {
-    var sizeWidth = Math.random() * 12;
-    var duration = Math.random() * 3;
-    const textDivs = document.getElementById("weblines");
-    var e = document.createElement("div");
+    let sizeWidth = Math.random() * 12;
+    let duration = Math.random() * 3;
+    let textDivs = document.querySelector(".weblines");
+    let e = document.createElement("div");
     e.setAttribute("class", "circle");
     textDivs.appendChild(e);
     e.style.width = 2 + sizeWidth + "px";

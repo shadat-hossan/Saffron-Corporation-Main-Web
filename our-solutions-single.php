@@ -119,34 +119,54 @@ as a Service (SaaS), Platform as a Service
     <div class="our_clients_area">
       <div class="clients_content center_content">
            <div class="section_title wow fadeInLeft" data-wow-duration="1s"><h2>Our Clients</h2></div>
-           <div class="clients_slider owl-carousel wow fadeInUp" data-wow-duration="2s">
+          <div class="clients_slider owl-carousel wow fadeInUp" data-wow-duration="2s">
              <div class="client_item">
-               <div class="client_logo card-awards1"><img src="assets/img/clients/client_logo1.png" /></div>
-               <div class="client_logo card-awards3"><img src="assets/img/clients/client_logo2.png" /></div>
+               <div class="client_logo card-awards1"><img src="assets/img/clients/client_logo1.svg" /></div>
+               <div class="client_logo card-awards3"><img src="assets/img/clients/client_logo2.svg" /></div>
              </div>
              <div class="client_item">
-               <div class="client_logo card-awards2"><img src="assets/img/clients/client_logo3.png" /></div>
-               <div class="client_logo card-awards4"><img src="assets/img/clients/client_logo4.png" /></div>
+               <div class="client_logo card-awards2"><img src="assets/img/clients/client_logo3.svg" /></div>
+               <div class="client_logo card-awards4"><img src="assets/img/clients/client_logo4.svg" /></div>
              </div>
              <div class="client_item">
-               <div class="client_logo card-awards5"><img src="assets/img/clients/client_logo5.png" /></div>
-               <div class="client_logo card-awards6"><img src="assets/img/clients/client_logo6.png" /></div>
+               <div class="client_logo card-awards5"><img src="assets/img/clients/client_logo5.svg" /></div>
+               <div class="client_logo card-awards6"><img src="assets/img/clients/client_logo6.svg" /></div>
              </div>
              <div class="client_item">
-               <div class="client_logo card-awards7"><img src="assets/img/clients/client_logo7.png" /></div>
-               <div class="client_logo card-awards8"><img src="assets/img/clients/client_logo8.png" /></div>
+               <div class="client_logo card-awards7"><img src="assets/img/clients/client_logo7.svg" /></div>
+               <div class="client_logo card-awards8"><img src="assets/img/clients/client_logo8.svg" /></div>
              </div>
              <div class="client_item">
-               <div class="client_logo card-awards9"><img src="assets/img/clients/client_logo9.png" /></div>
-               <div class="client_logo card-awards10"><img src="assets/img/clients/client_logo10.png" /></div>
+               <div class="client_logo card-awards9"><img src="assets/img/clients/client_logo9.svg" /></div>
+               <div class="client_logo card-awards10"><img src="assets/img/clients/client_logo10.svg" /></div>
              </div>
              <div class="client_item">
-               <div class="client_logo card-awards11"><img src="assets/img/clients/client_logo11.png" /></div>
-               <div class="client_logo card-awards12"><img src="assets/img/clients/client_logo12.png" /></div>
+               <div class="client_logo card-awards11"><img src="assets/img/clients/client_logo11.svg" /></div>
+               <div class="client_logo card-awards12"><img src="assets/img/clients/client_logo12.svg" /></div>
              </div>
              <div class="client_item">
-               <div class="client_logo card-awards13"><img src="assets/img/clients/client_logo9.png" /></div>
-               <div class="client_logo card-awards14"><img src="assets/img/clients/client_logo10.png" /></div>
+               <div class="client_logo card-awards13"><img src="assets/img/clients/client_logo13.svg" /></div>
+               <div class="client_logo card-awards14"><img src="assets/img/clients/client_logo14.svg" /></div>
+             </div>
+             <div class="client_item">
+               <div class="client_logo card-awards13"><img src="assets/img/clients/client_logo15.svg" /></div>
+               <div class="client_logo card-awards14"><img src="assets/img/clients/client_logo16.svg" /></div>
+             </div>
+             <div class="client_item">
+               <div class="client_logo card-awards13"><img src="assets/img/clients/client_logo17.svg" /></div>
+               <div class="client_logo card-awards14"><img src="assets/img/clients/client_logo18.svg" /></div>
+             </div>
+              <div class="client_item">
+               <div class="client_logo card-awards13"><img src="assets/img/clients/client_logo19.svg" /></div>
+               <div class="client_logo card-awards14"><img src="assets/img/clients/client_logo20.svg" /></div>
+             </div>
+              <div class="client_item">
+               <div class="client_logo card-awards13"><img src="assets/img/clients/client_logo21.svg" /></div>
+               <div class="client_logo card-awards14"><img src="assets/img/clients/client_logo22.svg" /></div>
+             </div>
+            <div class="client_item">
+               <div class="client_logo card-awards13"><img src="assets/img/clients/client_logo23.svg" /></div>
+               <div class="client_logo card-awards14"><img src="assets/img/clients/client_logo24.svg" /></div>
              </div>
            </div>
            <div class="client_item_info wow fadeInLeft" data-wow-duration="1s"><p>We Have Had the Priviledge of Serving the Needs of over 50 Amazing Clients with over 1000 Value Creating Projects</p></div>
