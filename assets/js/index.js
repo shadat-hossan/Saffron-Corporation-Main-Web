@@ -58,3 +58,20 @@ if (storyReadMor) {
     }
   });
 }
+
+// Nave Link Activation
+
+// const windoPathName = window.location.pathname;
+
+// function uu(e) {
+//   const naveLinks = document.querySelectorAll(".nav-item a");
+//   naveLinks.forEach((i) => {
+//     const navLinlPathname = new URL(i.href);
+//     i.addEventListener("click", () => {
+//       i.parentElement.classList.add("active");
+//       console.log(i.parentElement);
+//     });
+//   });
+// }
+
+// uu();
