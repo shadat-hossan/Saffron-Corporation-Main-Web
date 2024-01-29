@@ -58,15 +58,26 @@ s0.parentNode.insertBefore(s1,s0);
             class="mobileLogoImg"
             id="logo"
         /></a>
-        <ul>
-          <li class="nav-item"><a href="index.php">Home</a></li>
-          <li class="nav-item"><a href="about.php">About</a></li>
-          <li class="nav-item"><a href="service.php">Services</a></li>
-          <li class="nav-item"><a href="our-solutions.php">Solutions</a></li>
+
+          <?php
+            function active($currect_page){
+              $url_array =  explode('/', $_SERVER['REQUEST_URI']) ;
+              $url = end($url_array);  
+              if($currect_page == $url){
+                  echo 'active'; //class name in css 
+              } 
+            }
+          ?>
+
+        <ul class="navarea">
+          <li class="nav-item <?php active('index.php');?>"><a href="index.php">Home</a></li>
+          <li class="nav-item <?php active('about.php');?>"><a href="about.php">About</a></li>
+          <li class="nav-item <?php active('service.php');?>"><a href="service.php">Services</a></li>
+          <li class="nav-item <?php active('our-solutions.php');?>"><a href="our-solutions.php">Solutions</a></li>
           <li class="nav-item"><a href="#">Store</a></li>
-          <li class="nav-item"><a href="blog.php">Blog</a></li>
-          <li class="nav-item"><a href="contact.php">Contact</a></li>
-          <li class="nav-item"><a href="career.php">Career</a></li>
+          <li class="nav-item <?php active('blog.php');?>"><a href="blog.php">Blog</a></li>
+          <li class="nav-item <?php active('contact.php');?>"><a href="contact.php">Contact</a></li>
+          <li class="nav-item <?php active('career.php');?>"><a href="career.php">Career</a></li>
         </ul>
       </div>
       <div class="menu-toggle">
