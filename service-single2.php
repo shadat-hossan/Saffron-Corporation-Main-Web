@@ -20,25 +20,30 @@
             <p>Whether you are dealing with historical archives, customer forms, or a myriad of 
 handwritten notes, our OCR/ICR solutions are your gateway to a digitized future. 
 Experience the power of turning images into intelligible, actionable data with us</p>
-            <h5>What We Provide</h5>
-            <ul>
-              <li>Precision Document Scanning</li>
-              <li>OCR Technology Integration</li>
-              <li>Secure Archive Management</li>
-              <li>Metadata Tagging & Indexing</li>
-              <li>Customizable Access Control</li>
-              <li>Cloud-Based Archiving</li>
-            </ul>
-            <h5>Scanners We Use</h5>
-            <ul>
-              <li>Flatbed Scanner</li>
-              <li>ADF Scanner</li>
-              <li>Map Scanner</li>
-              <li>Robotic Scanner</li>
-              <li>Production Scanner</li>
-              <li>3D Scanner</li>
-            </ul>
-            
+            <div class="flex-wrap w-100">
+              <div class="colum_info">
+                <h5>What We Provide</h5>
+                <ul>
+                  <li>Precision Document Scanning</li>
+                  <li>OCR Technology Integration</li>
+                  <li>Secure Archive Management</li>
+                  <li>Metadata Tagging & Indexing</li>
+                  <li>Customizable Access Control</li>
+                  <li>Cloud-Based Archiving</li>
+                </ul>
+              </div>
+              <div class="colum_info">
+                <h5>Scanners We Use</h5>
+                <ul>
+                  <li>Flatbed Scanner</li>
+                  <li>ADF Scanner</li>
+                  <li>Map Scanner</li>
+                  <li>Robotic Scanner</li>
+                  <li>Production Scanner</li>
+                  <li>3D Scanner</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
        </div>
