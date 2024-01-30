@@ -3,7 +3,7 @@
      <img src="assets/img/hero/banner3.png" alt="">
      <div id="snow-js" class="snow-js"></div>
      <div class="single_banner_info">
-        <h1>Artificial Intelligence & Machine Learning</h1>
+        <h1>Document Digitization Servic</h1>
      </div>
    </div>
 

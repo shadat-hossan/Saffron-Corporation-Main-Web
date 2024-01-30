@@ -11,7 +11,7 @@
            <div class="item">
             <div class="slider-details">
               <div class="slier-content">
-                <h1>Welcome to Saffron Corporation Ltd - Your Gateway to Innovation</h1>
+                <h1>Welcome to Saffron Corporation Ltd -<br> Your Gateway to Innovation</h1>
               </div>
             </div>
           </div>
