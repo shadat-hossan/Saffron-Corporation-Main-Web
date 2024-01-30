@@ -458,13 +458,10 @@ Ideas to Life, Fueling Your Success</p>
      data-aos-duration="1500">
                 <div class="chooseRightPartCardTopContant">
                   <img src="assets/img/icon_check.png" alt="Check Icon" />
-                  <h4>Reliable, Client-Centric Approach & Collaborative Partnership</h4>
+                  <h4>Client-Centric Approach</h4>
                 </div>
                 <div class="chooseRightPartCardBottonContant">
-                  <p>Building Strong 
-Relationships and Tailoring Solutions to Your Unique Needs. Our client-centric approach 
-permeates every aspect of our work, ensuring that their unique needs are understood, 
-prioritized, and addressed with precision.</p>
+                  <p>Building Strong Relationships and Tailoring Solutions to Your Unique Needs.</p>
                 </div>
               </div>
             </div>
