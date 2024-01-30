@@ -47,6 +47,38 @@
   overflow: hidden;
   padding-bottom: 0;
 }
-.chooseRightPartCardTopContant h4 {
-  -webkit-line-clamp: 2;
+.chooseRightPartCardTopContant h4 {-webkit-line-clamp: 2;}
+
+.colum_info ol,
+.colum_info ul {
+  padding: 0 0 26px 20px;
+}
+.colum_info ul li,
+.colum_info ul { list-style-type: disc; }
+.colum_info ol li,
+.colum_info ol { list-style-type: decimal}
+.colum_info ol li,
+.colum_info ul li {
+    color: #313131;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 3px;
+}
+.colum_info p strong { display: block; font-weight: 600; }
+.colum_info h5 {
+    color: #313131;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    padding-bottom: 5px;
+}
+.w-100 { width: 100%; }
+.section_title h4 {
+    color: #b50107;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    position: relative;
 }
