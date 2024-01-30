@@ -28,3 +28,23 @@
   width: auto;
   border: 2px solid #b52025;
 }
+.work_on_holder .service_column_bg p {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding-bottom: 0;
+  margin-bottom: 30px;
+}
+.clients_slider.owl-carousel .owl-item img {
+    width: 100% !important;
+}
+.chooseRightPartCardTopContant h4,
+.chooseRightPartCardBottonContant p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding-bottom: 0;
+}
+.chooseRightPartCardTopContant h4 {-webkit-line-clamp: 2;}
