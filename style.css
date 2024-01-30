@@ -28,7 +28,7 @@
   width: auto;
   border: 2px solid #b52025;
 }
-.work_on_holder .service_column_bg p {
+.service_column_bg p {
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
@@ -37,7 +37,7 @@
   margin-bottom: 30px;
 }
 .clients_slider.owl-carousel .owl-item img {
-    width: 100% !important;
+  width: 100% !important;
 }
 .chooseRightPartCardTopContant h4,
 .chooseRightPartCardBottonContant p {
