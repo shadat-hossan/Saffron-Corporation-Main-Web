@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
+   
     <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -48,6 +49,20 @@ s0.parentNode.insertBefore(s1,s0);
         </ul>
       </div>
     </div>
+
+    <?php
+            function active($currect_page){
+              $url_array =  explode('/', $_SERVER['REQUEST_URI']) ;
+              $url = end($url_array);  
+              if ($currect_page == "index.php" && (empty($url) || $currect_page == $url)) {
+                echo 'active'; // class name in CSS 
+            } elseif ($currect_page == $url) {
+                echo 'active';
+            }
+            }
+          ?>
+
+
     <nav class="navbar-container" id="navbarContainer">
       <div class="logo"><a href="index.php"><img src="assets/img/logo/logo.svg" alt="logo" class="logo slogo" id="logo"/></a></div>
       <div class="navbar-menu">
@@ -58,18 +73,7 @@ s0.parentNode.insertBefore(s1,s0);
             class="mobileLogoImg"
             id="logo"
         /></a>
-
-          <?php
-            function active($currect_page){
-              $url_array =  explode('/', $_SERVER['REQUEST_URI']) ;
-              $url = end($url_array);  
-              if($currect_page == $url){
-                  echo 'active'; //class name in css 
-              } 
-            }
-          ?>
-
-        <ul class="navarea">
+        <ul>
           <li class="nav-item <?php active('index.php');?>"><a href="index.php">Home</a></li>
           <li class="nav-item <?php active('about.php');?>"><a href="about.php">About</a></li>
           <li class="nav-item <?php active('service.php');?>"><a href="service.php">Services</a></li>

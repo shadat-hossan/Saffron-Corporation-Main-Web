@@ -1,31 +1,50 @@
 .clients_slider.owl-carousel .owl-item img {
-	max-height: 100px;
+  max-height: 100px;
 }
 .tx_404_area {
-	padding:130px 20px 50px 20px;
-	min-height: calc(calc(100vh - 120px));
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
+  padding: 130px 20px 50px 20px;
+  min-height: calc(calc(100vh - 120px));
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .tx_404_box {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .tx_404_box h4 {
-    color: #b50107;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: normal;
-    text-align: center;
-    position: relative;
-    padding-bottom: 25px;
-    margin-top: -10px;
+  color: #b50107;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  position: relative;
+  padding-bottom: 25px;
+  margin-top: -10px;
 }
 .tx_404_box .red-button {
-	width: auto;
-	border: 2px solid #b52025;
+  width: auto;
+  border: 2px solid #b52025;
 }
+.work_on_holder .service_column_bg p {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding-bottom: 0;
+  margin-bottom: 30px;
+}
+.clients_slider.owl-carousel .owl-item img {
+    width: 100% !important;
+}
+.chooseRightPartCardTopContant h4,
+.chooseRightPartCardBottonContant p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding-bottom: 0;
+}
+.chooseRightPartCardTopContant h4 {-webkit-line-clamp: 2;}

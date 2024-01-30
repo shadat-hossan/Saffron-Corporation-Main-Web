@@ -1264,7 +1264,7 @@ body {
 
 /* Start Happy Clients Say Section */
 .happyClients {
-  padding: 3rem 0;
+  padding: 3rem 20px;
   position: relative;
   overflow: hidden;
 }

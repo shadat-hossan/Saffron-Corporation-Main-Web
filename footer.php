@@ -25,6 +25,7 @@
       </div>
     </div>
     <a id="backbutton"></a>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/index.js"></script>
@@ -39,6 +40,7 @@
     <script src="assets/js/service.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/career.js"></script>
+
     <script>
       var skills = {
         trusted: 90,
