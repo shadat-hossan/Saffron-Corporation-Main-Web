@@ -11,25 +11,41 @@
     <section class="avoutHeader">
       <div class="center_content avoutHeaderMainContant">
         <div class="avoutHeaderLeft">
+        <h2 class="avoutHeaderLeftTitle">Our History</h2>
+        <div class="para">
+          <p>
+          Established in 2007, Saffron Corporation Ltd. stands as a pioneering force in the realm of
+software development and business solutions in Bangladesh. With a relentless commitment to
+cutting-edge technology and strategic consulting, we have continuously evolved, ensuring our
+clients stay ahead in a dynamic business landscape.
+At SCL, we redefine possibilities in the digital realm. As a trailblazing force in the IT industry, we
+bring together expertise, innovation, and a commitment to excellence to drive your business
+forward.
+          </p>
+</div>
           <h2 class="avoutHeaderLeftTitle">Our Mission</h2>
           <div class="para">
             <p>
-              Your trusted companion for digital leadership by empowering people
-              to achieve more with less. Our Core Company owns a value of
-              developing a nation with strong and valuable IT infrastructure
-              with the help of local and international professional and experts.
-              We offer not only service but also value
+            Saffron Corporation Ltd.'s objective is to empower businesses through cutting-edge
+technology and strategic innovation. We are committed to providing bespoke software
+solutions and comprehensive business services that not only meet, but surpass, our
+clients' growing requirements. By cultivating a culture of quality, collaboration, and adaptability, we hope to shape the future of technology, allowing our clients to achieve
+unprecedented success in a fast-evolving digital field. Our aim is to provide innovative
+solutions that create efficiency, growth, and long-term impact for the businesses we
+serve.
             </p>
           </div>
           <div class="para">
             <h2 class="avoutHeaderLeftTitle">Our Vision</h2>
             <p>
-              At Saffron Corporation Ltd., we firmly believe in the power of
-              diversity and inclusivity. We embrace a culture that promotes
-              equal opportunities for all individuals, regardless of their
-              background, gender, race, ethnicity, sexual orientation, or
-              abilities. Our Equal Opportunities Policy is at the core of our
-              values, guiding every aspect of our operations.
+            At Saffron Corporation Ltd., our vision is to be a global leader in shaping the future of
+technology. We aspire to set new benchmarks in software development and business
+solutions, driving innovation that transcends industry standards. Our commitment
+extends to fostering a workplace that cultivates creativity, collaboration, and continuous
+learning, ensuring our teams are at the forefront of technological evolution. Through
+our visionary approach, we aim to empower businesses worldwide, leaving an indelible
+mark on the digital landscape and contributing to the transformative success of our
+clients
             </p>
           </div>
         </div>
@@ -51,43 +67,37 @@
       <div class="center_content ourStoryMainContant">
         <h2>Our Story: A Decade of Excellence</h2>
         <p class="ourStoryParagr">
-          Since our establishment in 2009, Saffron Corporation Ltd. has embarked
-          on an extraordinary journey, marked by unwavering dedication and a
-          commitment to excellence. Over the years, we have evolved into a
-          leading technology solutions provider, specializing in serving both
-          government and non-government agencies. Our story is one of growth,
-          innovation, and a relentless pursuit of client satisfaction. From the
-          very<span id="dot">...</span>
+        Since our establishment in 2007, Saffron Corporation Ltd. has embarked on an
+extraordinary journey, marked by unwavering dedication and a commitment to
+excellence. Over the years, we have evolved into a leading technology solutions
+provider, specializing in serving both government and non-government agencies. Our
+story is one of growth, innovation, and a relentless pursuit of client satisfaction. From
+the very beginning, we set out to make a difference by leveraging cutting-edge
+technologies to solve complex challenges.
+<span id="dot">...</span>
           <span id="hiddenText">
-            beginning, we set out to make a difference by leveraging
-            cutting-edge technologies to solve complex challenges. Our team of
-            skilled professionals, with their diverse expertise and passion for
-            innovation, has been instrumental in our success. Throughout our
-            journey, we have had the privilege of working closely with
-            government agencies and non-government organizations, contributing
-            to their transformative projects. With every engagement, we have
-            upheld our values of integrity, transparency, and professionalism.
-            We approach each project with meticulous planning, unwavering focus,
-            and a deep sense of responsibility. Our track record speaks volumes
-            about our commitment to delivering projects with the utmost care. We
-            have consistently exceeded expectations, ensuring that every
-            deliverable is of the highest quality and completed within the
-            stipulated timeframe. Our dedication to precision and attention to
-            detail have earned us the trust and respect of our clients. At
-            Saffron Corporation Ltd., we believe in the power of technology to
-            drive positive change. We have embraced emerging trends, staying
-            ahead of the curve to provide our clients with innovative solutions
-            that address their evolving needs. Our ability to adapt and thrive
-            in a rapidly changing landscape has been key to our success. As we
-            reflect on our journey so far, we are grateful for the partnerships
-            we have formed and the impact we have made. We are proud of the role
-            we have played in shaping the digital landscape and contributing to
-            the progress of government and non-government initiatives. Looking
-            ahead, we remain committed to pushing boundaries, delivering
-            excellence, and making a lasting difference. Our story is still
-            being written, and we invite you to be a part of it. Join us on our
-            quest to embrace technology, empower organizations, and create a
-            brighter future for all.
+          Our team of skilled professionals, with their
+diverse expertise and passion for innovation, has been instrumental in our success.
+Throughout our journey, we have had the privilege of working closely with government
+agencies and non-government organizations, contributing to their transformative
+projects. With every engagement, we have upheld our values of integrity, transparency,
+and professionalism. We approach each project with meticulous planning, unwavering
+focus, and a deep sense of responsibility. Our track record speaks volumes about our
+commitment to delivering projects with the utmost care. We have consistently
+exceeded expectations, ensuring that every deliverable is of the highest quality and
+completed within the stipulated timeframe. Our dedication to precision and attention to
+detail have earned us the trust and respect of our clients. At Saffron Corporation Ltd.,
+we believe in the power of technology to drive positive change. We have embraced
+emerging trends, staying ahead of the curve to provide our clients with innovative
+solutions that address their evolving needs. Our ability to adapt and thrive in a rapidly
+changing landscape has been key to our success. As we reflect on our journey so far, we
+are grateful for the partnerships we have formed and the impact we have made. We are
+proud of the role we have played in shaping the digital landscape and contributing to
+the progress of government and non-government initiatives. Looking ahead, we remain
+committed to pushing boundaries, delivering excellence, and making a lasting
+difference. Our story is still being written, and we invite you to be a part of it. Join us on
+our quest to embrace technology, empower organizations, and create a brighter future
+for all.
           </span>
         </p>
         <button class="storyReadMor">
@@ -298,35 +308,19 @@
               <h3>SOFTWARE DEVELOPMENT</h3>
             </div>
             <p class="servisCardContentDescr">
-              Experience the power of tailored solutions with our custom
-              software development service. We craft innovative, scalable, and
-              user-centric software solutions to meet your unique business needs
-              and drive growth
+            Experience the power of tailored solutions with our custom software development
+service. We craft innovative, scalable, and user-centric software solutions to meet your
+unique business needs and drive growth.
+Inside the ‘software development’ section
+At Saffron Corporation Ltd., our approach to software development is rooted in
+innovation, precision, and client-centricity. We specialize in crafting cutting-edge
+solutions that not only meet but exceed the dynamic demands of today's digital
+landscape.
             </p>
           </div>
         </div>
 
-        <div class="servisCard">
-          <img
-            src="assets/img/about/GEOGRAPHIC_SOLUTION.jpg"
-            alt="GEOGRAPHIC SOLUTION"
-            class="servisCardBgImage"
-          />
-          <div class="servisCardContent">
-            <div class="servisCardContentTop">
-              <img src="assets/img/about/GEOGRAPHIC_SOLUTION_ICON.svg" alt="" />
-              <h3>GEOGRAPHIC SOLUTION</h3>
-            </div>
-            <p class="servisCardContentDescr">
-              Experience the power of tailored solutions with our custom
-              software development service. We craft innovative, scalable, and
-              user-centric software solutions to meet your unique business needs
-              and drive growth
-            </p>
-          </div>
-        </div>
-
-        <div class="servisCard">
+       <div class="servisCard">
           <img
             src="assets/img/about/INDUSTRY_AUTOMATION.jpg"
             alt="INDUSTRY AUTOMATION"
@@ -335,13 +329,12 @@
           <div class="servisCardContent">
             <div class="servisCardContentTop">
               <img src="assets/img/about/INDUSTRY_AUTOMATION_ICON.svg" alt="" />
-              <h3>INDUSTRY AUTOMATION</h3>
+              <h3>Social Contribution</h3>
             </div>
             <p class="servisCardContentDescr">
-              Experience the power of tailored solutions with our custom
-              software development service. We craft innovative, scalable, and
-              user-centric software solutions to meet your unique business needs
-              and drive growth
+            At Saffron Corporation Ltd., we are deeply committed to making a positive impact
+beyond the realms of technology. Our corporate social responsibility initiatives reflect
+our dedication to social causes, community welfare, and environmental sustainability.
             </p>
           </div>
         </div>
@@ -355,13 +348,14 @@
           <div class="servisCardContent">
             <div class="servisCardContentTop">
               <img src="assets/img/about/UNIFIED_COMMUNICATION_ICON.svg" alt="" />
-              <h3>UNIFIED COMMUNICATION</h3>
+              <h3>Unified Communication</h3>
             </div>
             <p class="servisCardContentDescr">
-              Experience the power of tailored solutions with our custom
-              software development service. We craft innovative, scalable, and
-              user-centric software solutions to meet your unique business needs
-              and drive growth
+            At Saffron Corporation Ltd., our Unified Communication solutions redefine the way
+businesses connect, collaborate, and communicate. Designed to streamline interactions
+across various channels, our offerings empower organizations to enhance productivity,
+efficiency, and overall workplace dynamics.
+
             </p>
           </div>
         </div>
@@ -375,33 +369,12 @@
           <div class="servisCardContent">
             <div class="servisCardContentTop">
               <img src="assets/img/about/DIGITIZATION_ICON.svg" alt="" />
-              <h3>DIGITIZATION OCR / ICR</h3>
+              <h3>Digitization OCR/ICR</h3>
             </div>
             <p class="servisCardContentDescr">
-              Experience the power of tailored solutions with our custom
-              software development service. We craft innovative, scalable, and
-              user-centric software solutions to meet your unique business needs
-              and drive growth
-            </p>
-          </div>
-        </div>
-
-        <div class="servisCard">
-          <img
-            src="assets/img/about/SURVEILLANCE_SYSTEM.jpg"
-            alt="SURVEILLANCE SYSTEM"
-            class="servisCardBgImage"
-          />
-          <div class="servisCardContent">
-            <div class="servisCardContentTop">
-              <img src="assets/img/about/SURVEILLANCE_SYSTEM_ICON.svg" alt="" />
-              <h3>SURVEILLANCE SYSTEM</h3>
-            </div>
-            <p class="servisCardContentDescr">
-              Experience the power of tailored solutions with our custom
-              software development service. We craft innovative, scalable, and
-              user-centric software solutions to meet your unique business needs
-              and drive growth
+            Saffron Corporation Ltd.'s OCR/ICR solutions, businesses can embrace the era of digital
+transformation, optimizing their workflows, and gaining a competitive edge in the
+modern digital landscape.
             </p>
           </div>
         </div>
@@ -486,22 +459,22 @@
           <div class="our_culture_col">
             <div class="our_culture_item our_culture_item1 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="2s">
               <small class="culture_item_number">1</small>
-              <span>Identify KPIs relevant to your culture change goals</span>
+              <span>Innovation as a Core Value</span>
               <div class="culture_line"></div>
             </div>
             <div class="our_culture_item our_culture_item2 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="3s">
               <small class="culture_item_number">2</small>
-              <span>Identify KPIs relevant to your culture change goals</span>
+              <span>Collaboration and Teamwork</span>
               <div class="culture_line"></div>
             </div>
             <div class="our_culture_item our_culture_item3 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="4s">
               <small class="culture_item_number">3</small>
-              <span>Identify KPIs relevant to your culture change goals</span>
+              <span>Client-Centric Approach</span>
               <div class="culture_line"></div>
             </div>
             <div class="our_culture_item our_culture_item4 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="4.2s">
               <small class="culture_item_number">4</small>
-              <span>Identify KPIs relevant to your culture change goals</span>
+              <span>Adaptability and Flexibility</span>
               <div class="culture_line"></div>
             </div>
           </div>
@@ -518,22 +491,22 @@
           <div class="our_culture_col our_culture_col2">
             <div class="our_culture_item our_culture_item5 wow fadeInRight" data-wow-delay="300ms" data-wow-duration="2s">
               <small class="culture_item_number">5</small>
-              <span>Identify KPIs relevant to your culture change goals</span>
+              <span>Diversity and Inclusion</span>
               <div class="culture_line"></div>
             </div>
             <div class="our_culture_item our_culture_item6 wow fadeInRight" data-wow-delay="300ms" data-wow-duration="3s">
               <small class="culture_item_number">6</small>
-              <span>Identify KPIs relevant to your culture change goals</span>
+              <span>Transparency and Accountability</span>
               <div class="culture_line"></div>
             </div>
             <div class="our_culture_item our_culture_item7 wow fadeInRight" data-wow-delay="300ms" data-wow-duration="4s">
               <small class="culture_item_number">7</small>
-              <span>Identify KPIs relevant to your culture change goals</span>
+              <span>Quality-Driven Ethos</span>
               <div class="culture_line"></div>
             </div>
             <div class="our_culture_item our_culture_item8 wow fadeInRight" data-wow-delay="300ms" data-wow-duration="4.2s">
               <small class="culture_item_number">8</small>
-              <span>Identify KPIs relevant to your culture change goals</span>
+              <span>Work-Life Integration</span>
               <div class="culture_line"></div>
             </div>
           </div>

@@ -372,7 +372,7 @@
       $('.services-slider').owlCarousel({
             loop:true,
             margin: 0,
-            items: 6,
+            items: 4,
             nav:false,
             mouseDrag: false,
             touchDrag: true,
@@ -405,12 +405,12 @@
                     dots:false,
                 },
                 992: {
-                    items: 5,
+                    items: 4,
                     slideBy: 1,
                     dotsEach: 2,
                 },
                 1280: {
-                    items: 6,
+                    items: 4,
                     slideBy: 1,
                     dotsEach: 2,
                 }

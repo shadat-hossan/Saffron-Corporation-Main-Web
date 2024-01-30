@@ -2182,7 +2182,7 @@ body {
 
 .avoutHeaderMainContant {
   display: flex;
-  padding: 0 0 40px;
+  padding: 0;
 }
 
 .avoutHeaderLeft {
@@ -2236,7 +2236,6 @@ body {
 
 .para {
   margin-bottom: 20px;
-  padding-bottom: 3rem;
 }
 
 .para h3 {
@@ -2535,12 +2534,13 @@ body {
   color: #fff;
   font-size: var(--paragraphfont);
   line-height: 23px;
-  padding: 10px;
+  padding: 10px 10px 0px 10px;
   text-align: center;
   transform: translateY(300%);
+  overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
+  -webkit-line-clamp: 8;
+  line-clamp: 8;
   -webkit-box-orient: vertical;
   transition: all 0.5s;
   opacity: 0;
@@ -2551,7 +2551,7 @@ body {
 }
 
 .servisCard:hover .servisCardContentDescr {
-  transform: translateY(5%);
+  transform: translateY(36%);
   opacity: 1;
 }
 
