@@ -125,44 +125,44 @@ and growth. With a strong emphasis on being on the cutting edge of technical bre
             <div id="service_carousel" class="service_carousel work_on_feature owl-carousel">
                 <div class="service_column wow fadeInDown" data-wow-duration="2s">
                     <div class="service_column_bg">
-                        <div class="service_icon"><img src="assets/img/icon1.svg" alt=""></div>
+                        <div class="service_icon"><img src="assets/service_all_icon/softwareDevelopmentIcon.svg" alt=""></div>
                         <h3><a href="#">Software Development</a></h3>
                         <p> In the digital age, software becomes the driving force behind innovation, propelling transformational advances throughout industries. From cutting edge technology and agile development processes to user-centric experiences and data driven insights, software is the driving force behind quick prototyping, ecosystem connectivity, and total digital business transformation. At SCL, we understand the 
-transformative power of well-crafted code and intuitive user experiences. With a 
-passion for technology and a commitment to excellence, we specialize in software 
-development that goes beyond lines of code; we craft solutions that shape industries, 
-streamline processes, and bring ideas to life. Our approach is a harmonious blend of 
-creativity, precision, and innovation, ensuring that every software we develop not only 
-meets but exceeds our clients’ expectations.</p>
+                        transformative power of well-crafted code and intuitive user experiences. With a 
+                        passion for technology and a commitment to excellence, we specialize in software 
+                        development that goes beyond lines of code; we craft solutions that shape industries, 
+                        streamline processes, and bring ideas to life. Our approach is a harmonious blend of 
+                        creativity, precision, and innovation, ensuring that every software we develop not only 
+                        meets but exceeds our clients’ expectations.</p>
                         <a href="#" class="learn_more_btn"><span>LEARN MORE</span></a>
                     </div>
                 </div>
                 <div class="service_column wow fadeInDown" data-wow-duration="2.5s">
                     <div class="service_column_bg">
-                        <div class="service_icon"><img src="assets/img/icon2.svg" alt=""></div>
+                        <div class="service_icon"><img src="assets/service_all_icon/internetofThingsIcon.svg" alt=""></div>
                         <h3><a href="#">Internet of Things</a></h3>
                             <p>The Internet of Things (IoT) refers to the network of interconnected 
-physical devices, vehicles, appliances, and other object embedded with sensors, 
-software, and network connectivity. The goal of IoT is to enhance efficiency, 
-convenience, and decision-making by enabling real-time data monitoring and analysis.
-Saffron Corporation embraces IoT to transform industries, enhance efficiency, security, 
-and data-driven decisions. We believe that by embracing IoT, we can empower our 
-clients to unlock new opportunities and enhance their services and operations.<br>
-Our dedication to providing top-notch IoT solutions ensures that our customers are well 
-prepared for the future of technology. We are committed to IoT’s potential for 
-empowering clients and staying at the forefront of technology, ensuring they are 
-prepared for the future.<br>
-IoT services that we provide:<br>
-• Strategic IoT consulting.<br>
-• Full-cycle IoT development<br>
-• IoT analytics<br>
-• IoT application management</p>
+                              physical devices, vehicles, appliances, and other object embedded with sensors, 
+                              software, and network connectivity. The goal of IoT is to enhance efficiency, 
+                              convenience, and decision-making by enabling real-time data monitoring and analysis.
+                              Saffron Corporation embraces IoT to transform industries, enhance efficiency, security, 
+                              and data-driven decisions. We believe that by embracing IoT, we can empower our 
+                              clients to unlock new opportunities and enhance their services and operations.<br>
+                              Our dedication to providing top-notch IoT solutions ensures that our customers are well 
+                              prepared for the future of technology. We are committed to IoT’s potential for 
+                              empowering clients and staying at the forefront of technology, ensuring they are 
+                              prepared for the future.<br>
+                              IoT services that we provide:<br>
+                              • Strategic IoT consulting.<br>
+                              • Full-cycle IoT development<br>
+                              • IoT analytics<br>
+                              • IoT application management</p>
                         <a href="#" class="learn_more_btn"><span>LEARN MORE</span></a>
                     </div>
                 </div>
                 <div class="service_column wow fadeInDown" data-wow-duration="2.8s">
                     <div class="service_column_bg">
-                        <div class="service_icon"><img src="assets/img/icon3.svg" alt=""></div>
+                        <div class="service_icon"><img src="assets/service_all_icon/documentDigitizationServiceIcon.svg" alt=""></div>
                         <h3><a href="#">Document Digitization Service</a></h3>
                         <p>We 
 recognize one size does not fit all. That is why we use a variety of cutting-edge scanners <br>
@@ -192,7 +192,7 @@ Experience the power of turning images into intelligible, actionable data with u
                 </div>
                 <div class="service_column wow fadeInDown" data-wow-duration="3s">
                     <div class="service_column_bg">
-                        <div class="service_icon"><img src="assets/img/icon4.svg" alt=""></div>
+                        <div class="service_icon"><img src="assets/service_all_icon/bigDataAnalyticsIcon.svg" alt=""></div>
                         <h3><a href="#">Big Data Analytics</a></h3>
                         <p>Big data analytics involves the systematic examination and interpretation of vast and 
 complex datasets to extract meaningful insights, patterns, and trends. SCL pioneers the 
@@ -225,7 +225,7 @@ Benefits of Big Data<br>
                 </div>
                 <div class="service_column wow fadeInDown" data-wow-duration="3.2s">
                     <div class="service_column_bg">
-                        <div class="service_icon"><img src="assets/img/icon3.svg" alt=""></div>
+                        <div class="service_icon"><img src="assets/service_all_icon/blockchainTechnologyIcon.svg" alt=""></div>
                         <h3><a href="#">Blockchain Technology</a></h3>
                         <p>Blockchain is a decentralized and distributed digital ledger technology that records 
 transactions across a network of computers in a secure, transparent, and tamperresistant manner.
@@ -249,7 +249,7 @@ enhanced security, fostering trust and confidence in the digital age</p>
 
                 <div class="service_column wow fadeInDown" data-wow-duration="3.6s">
                     <div class="service_column_bg">
-                        <div class="service_icon"><img src="assets/img/icon4.svg" alt=""></div>
+                        <div class="service_icon"><img src="assets/service_all_icon/e-commerceSolutionIcon.svg" alt=""></div>
                         <h3><a href="#">E-Commerce Solutions</a></h3>
                         <p>Saffron Corporation is dedicated to delivering cutting-edge solutions in the world of IT 
 industry. As a pioneer in this industry, we take pride in providing a wide range of 
@@ -276,7 +276,7 @@ Why Choose Saffron's Online Store?<br>
 
                 <div class="service_column wow fadeInDown" data-wow-duration="3.6s">
                     <div class="service_column_bg">
-                        <div class="service_icon"><img src="assets/img/icon4.svg" alt=""></div>
+                        <div class="service_icon"><img src="assets/service_all_icon/cloudSecurityIcon.svg" alt=""></div>
                         <h3><a href="#">Cloud Security</a></h3>
                         <p>Cloud security simplifies the digital age by safeguarding data, ensuring privacy, and 
 enabling secure remote access. At SCL, we are at the forefront of the digital revolution, 
@@ -299,7 +299,7 @@ Our Cloud Services Portfolio:<br>
                 </div>
                 <div class="service_column wow fadeInDown" data-wow-duration="3.6s">
                     <div class="service_column_bg">
-                        <div class="service_icon"><img src="assets/img/icon4.svg" alt=""></div>
+                        <div class="service_icon"><img src="assets/service_all_icon/unifiedCommunicationToolsIcin.svg" alt=""></div>
                         <h3><a href="#">Unified Communication Tools</a></h3>
                         <p>Where we redefine the way businesses communicate, collaborate, and connect. As a 
 leading provider of Unified Communication (UC) and Communication Collaboration (CC) 
@@ -327,7 +327,7 @@ continuous improvement and cutting-edge features</p>
 
                 <div class="service_column wow fadeInDown" data-wow-duration="3.6s">
                     <div class="service_column_bg">
-                        <div class="service_icon"><img src="assets/img/icon4.svg" alt=""></div>
+                        <div class="service_icon"><img src="assets/service_all_icon/cyberSecurity&DarkWebIcon.svg" alt=""></div>
                         <h3><a href="#">Cyber Security & dark Web</a></h3>
                         <p>It is essential to safeguard your assets in the rapidly evolving digital landscape. Our 
 Cybersecurity and Dark Web Services portfolio combines cutting-edge technology with 
@@ -359,7 +359,7 @@ employees on cybersecurity best practices.<br>
                 </div>
                 <div class="service_column wow fadeInDown" data-wow-duration="3.6s">
                     <div class="service_column_bg">
-                        <div class="service_icon"><img src="assets/img/icon4.svg" alt=""></div>
+                        <div class="service_icon"><img src="assets/service_all_icon/robotics&AIServiceIcon.svg" alt=""></div>
                         <h3><a href="#">Robotics & AI Service</a></h3>
                         <p>We use the power of AI and robotics to redefine the potential of automation. Discover 
 our extensive service range, where innovation meets efficiency and challenging 
