@@ -740,7 +740,7 @@ high-quality services backed by years of industry experience.</p>
         <div class="faq_detail_info">
           <div class="faq_detail_bg wow fadeInRight" data-wow-duration="2s">
             <h5>FAQ`s Detail Page</h5>
-            <p>A dynamic team has been working in different software development, AI, and IOT technologies/ frameworks for more than 4 years. Successfully delivered many clients...</p>
+            <p>Find the answers you need in our comprehensive FAQs. If your question is not answered here, please visit our Contact Us page. We are committed to providing you with timely and accurate assistance.</p>
             <a href="#" class="go_detail_page wow pulse" data-wow-delay="300ms" data-wow-iteration="infinite" data-wow-duration="2s"></a>
           </div>
         </div>
