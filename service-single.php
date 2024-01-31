@@ -28,7 +28,9 @@ landscape.</p>
 
      <div class="timeline">
         <div class="timelineRow left-timelineRow time-item-1">
-          <img src="assets/service_all_icon/expertTeamOfDevelopersIcon.svg" alt="" />
+          <div class="Time-image">
+              <img src="assets/service_all_icon/expertTeamOfDevelopersIcon.svg" alt="" />
+          </div>
           <div class="text-box">
             <h2>Expert Team of Developers</h2>
             <p>
@@ -41,7 +43,9 @@ landscape.</p>
         </div>
 
       <div class="timelineRow right-timelineRow time-item-2">
+      <div class="Time-image">
         <img src="assets/service_all_icon/customizedSolutionsIcon.svg" alt="" />
+      </div>
         <div class="text-box">
           <h2>Customized Solutions</h2>
           <p>
@@ -54,7 +58,9 @@ objectives of our clients.
       </div>
 
       <div class="timelineRow left-timelineRow time-item-3">
+      <div class="Time-image">
         <img src="assets/service_all_icon/endToEndServicesIcon.svg" alt="" />
+      </div>
         <div class="text-box">
           <h2>End-to-End Services</h2>
           <p>
@@ -67,7 +73,9 @@ planning, meticulous coding, rigorous testing, and seamless implementation.
       </div>
 
       <div class="timelineRow right-timelineRow time-item-4">
+      <div class="Time-image">
         <img src="assets/service_all_icon/cutting-EdgeTechnologiesIcon.svg" alt="" />
+      </div>
         <div class="text-box">
           <h2>Cutting-Edge Technologies</h2>
           <p>
@@ -80,7 +88,9 @@ contemporary but also future-proof.
       </div>
 
       <div class="timelineRow left-timelineRow time-item-5">
+      <div class="Time-image">
         <img src="assets/service_all_icon/qualityAssuranceIcon.svg" alt="" />
+      </div>
         <div class="text-box">
           <h2>Quality Assurance</h2>
           <p>
@@ -93,7 +103,9 @@ software solutions.
       </div>
 
       <div class="timelineRow right-timelineRow time-item-6">
+      <div class="Time-image">
         <img src="assets/service_all_icon/continuousInnovationIcon.svg" alt="" />
+</div>
         <div class="text-box">
           <h2>Continuous Innovation</h2>
           <p>
@@ -106,7 +118,9 @@ their respective industries.
       </div>
 
       <div class="timelineRow left-timelineRow time-item-7">
+      <div class="Time-image">
         <img src="assets/service_all_icon/clientCollaborationIcon.svg" alt="" />
+</div>
         <div class="text-box">
           <h2>Client Collaboration</h2>
           <p>
@@ -119,7 +133,9 @@ seamlessly with the client's vision and business objectives.
       </div>
 
       <div class="timelineRow right-timelineRow time-item-8">
+      <div class="Time-image">
         <img src="assets/service_all_icon/industryFocusIcon.svg" alt="" />
+</div>
         <div class="text-box">
           <h2>Industry Focus</h2>
           <p>
