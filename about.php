@@ -453,7 +453,7 @@ modern digital landscape.
     <div class="ourCulture">
       <div class="particles-culture-box"><div id="particles-culture"></div></div>
       <div class="center_content ourCultureMainContant">
-        <h2 class="ourCultureTitle">Our Culture</h2>
+        <h2 class="ourCultureTitle">Cultural Essence</h2>
 
         <div class="our_culture_box flex-nowrap d-flex">
           <div class="our_culture_col">

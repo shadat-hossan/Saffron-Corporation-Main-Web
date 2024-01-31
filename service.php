@@ -24,26 +24,13 @@
         <div class="weProvideRightSide" data-aos="fade-left">
           <div class="weProvideTitle">
             <h3>WE PROVIDE</h3>
-            <h1>Cutting-Edge Solutions For Technology & IT Services</h1>
+            <h1>Cutting-Edge Solutions for Technology & IT Services</h1>
           </div>
           <div class="weProvidePeragrapg">
             <p>
-              At Saffron Corporation Ltd., we take pride in providing cutting-edge
-              solutions for technology and IT services. With our deep expertise
-              and unwavering commitment to innovation, we empower businesses to
-              navigate the ever-evolving digital landscape with confidence and
-              success. <br /><br />
-              From software development to artificial intelligence, robotics, and
-              data analysis, our comprehensive range of services caters to diverse
-              industry needs. Our talented team of professionals leverages the
-              latest technologies and industry best practices to deliver bespoke
-              solutions that drive efficiency, enhance productivity, and
-              accelerate growth. With a keen focus on staying at the forefront of
-              technological advancements, we strive to shape the future of
-              technology by consistently pushing boundaries and embracing emerging
-              trends. Partner with us and unlock the transformative power of our
-              cutting-edge solutions for unparalleled success in the digital
-              realm.
+            Saffron Corporation Ltd. is renowned for providing cutting-edge technological solutions and IT services. We enable organizations to manage the evolving digital landscape with firm confidence and extraordinary success, courtesy of our extensive expertise and steadfast commitment to innovation. Our dedication to quality distinguishes us, ensuring that our clients not only adapt to but thrive in the fast-changing technology landscape <br /><br />
+            Our extensive range of services caters to a range of industry needs, including software development, robotics, and AI. Our expert team of specialists uses cutting-edge technologies and industry best practices to provide customized solutions that increase efficiency, production, 
+and growth. With a strong emphasis on being on the cutting edge of technical breakthroughs, we aim to define the future of technology by continually pushing limits and embracing emerging trends. Partner with us to unleash the revolutionary power of our cutting-edge technologies and achieve unprecedented success in the digital sphere.
             </p>
             <div class="weProvideCard">
                 <div class="weProvideCards">
@@ -59,7 +46,7 @@
                         <img src="assets/img/Vector.png">
                     </div>
                     <div class="weProvideDetails">
-                      <p>Serverless & on-premises</p>
+                      <p>Enterprize grade support</p>
                     </div>
                 </div>
                 <div class="weProvideCards">
@@ -67,7 +54,7 @@
                         <img src="assets/img/Vector.png">
                     </div>
                     <div class="weProvideDetails">
-                      <p>Serverless & on-premises</p>
+                      <p>Verified professionals</p>
                     </div>
                 </div>
             </div>
@@ -85,14 +72,8 @@
                   <div class="service_column_bg">
                         <div class="service_icon"><img src="assets/service_all_icon/softwareDevelopmentIcon.svg" alt=""></div>
                         <h3><a href="#">Software Development</a></h3>
-                        <p> In the digital age, software becomes the driving force behind innovation, propelling transformational advances throughout industries. From cutting edge technology and agile development processes to user-centric experiences and data driven insights, software is the driving force behind quick prototyping, ecosystem connectivity, and total digital business transformation. At SCL, we understand the 
-                        transformative power of well-crafted code and intuitive user experiences. With a 
-                        passion for technology and a commitment to excellence, we specialize in software 
-                        development that goes beyond lines of code; we craft solutions that shape industries, 
-                        streamline processes, and bring ideas to life. Our approach is a harmonious blend of 
-                        creativity, precision, and innovation, ensuring that every software we develop not only 
-                        meets but exceeds our clients’ expectations.</p>
-                        <a href="#" class="learn_more_btn"><span>LEARN MORE</span></a>
+                        <p> In the digital age, software becomes the driving force behind innovation, propelling transformational advances throughout industries. From cutting edge technology and agile development processes to user-centric experiences and data driven insights, software is the driving force behind quick prototyping, ecosystem connectivity, and total digital business transformation.</p>
+                        <a href="service-single.php" class="learn_more_btn"><span>LEARN MORE</span></a>
                     </div>
               </div>
               <div class="service_column" data-aos="fade-up"

@@ -13,27 +13,126 @@
             <h2>Software Development</h2>
         </div>
         <div class="two_column_area flex-wrap">
-          <div class="colum_info" data-aos="fade-right">
-            <p>We understand the importance of managing and analyzing data for businesses. That’s why we offer a one-stop-shop solution that covers every aspect of the data service pipeline. From data creation to storage, use, and archiving, we’ve got you cover ed! Our team of certified experts takes great pride in providing modern and cost-effective solutions to help our customers extract maximum value from their data.</p>
-            <p>We understand the importance of managing and analyzing data for
- businesses. That’s why we offer a one-stop-shop solution that covers every
- aspect of the data service pipeline. From data creation to storage, use, and
- archiving, we’ve got you covered! Our team of certified experts takes great 
-pride in providing modern and cost-effective solutions to help our customers 
- extract maximum value from their data.</p>
-          </div>
-          <div class="colum_info" data-aos="fade-left">
-            <p>We understand the importance of managing and analyzing data for businesses. That’s why we offer a one-stop-shop solution that covers every aspect of the data service pipeline. From data creation to storage, use, and archiving, we’ve got you cover ed! Our team of certified experts takes great pride in providing modern and cost-effective solutions to help our customers extract maximum value from their data.</p>
-            <p>We understand the importance of managing and analyzing data for
- businesses. That’s why we offer a one-stop-shop solution that covers every
- aspect of the data service pipeline. From data creation to storage, use, and
- archiving, we’ve got you covered! Our team of certified experts takes great 
-pride in providing modern and cost-effective solutions to help our customers 
- extract maximum value from their data.</p>
+          <div class="colum_info w-100" >
+            <p>Experience the power of tailored solutions with our custom software development
+service. We craft innovative, scalable, and user-centric software solutions to meet your
+unique business needs and drive growth.</p>
+            <p>At Saffron Corporation Ltd., our approach to software development is rooted in
+innovation, precision, and client-centricity. We specialize in crafting cutting-edge
+solutions that not only meet but exceed the dynamic demands of today's digital
+landscape.</p>
           </div>
         </div>
        </div>
      </div>
+
+     <div class="timeline">
+        <div class="timelineRow left-timelineRow time-item-1">
+          <img src="assets/service_all_icon/expertTeamOfDevelopersIcon.svg" alt="" />
+          <div class="text-box">
+            <h2>Expert Team of Developers</h2>
+            <p>
+              Our software development is driven by a team of skilled and
+              experienced developers, each adept at leveraging the latest
+              technologies to bring concepts to life.
+            </p>
+            <sapn class="left-timelineRow-arrow"></sapn>
+          </div>
+        </div>
+
+      <div class="timelineRow right-timelineRow time-item-2">
+        <img src="assets/service_all_icon/customizedSolutionsIcon.svg" alt="" />
+        <div class="text-box">
+          <h2>Customized Solutions</h2>
+          <p>
+          We understand that every business is unique. Hence, our software development
+revolves around creating tailored solutions that align with the specific requirements and
+objectives of our clients.
+          </p>
+          <sapn class="right-timelineRow-arrow"></sapn>
+        </div>
+      </div>
+
+      <div class="timelineRow left-timelineRow time-item-3">
+        <img src="assets/service_all_icon/endToEndServicesIcon.svg" alt="" />
+        <div class="text-box">
+          <h2>End-to-End Services</h2>
+          <p>
+          From the conceptualization of an idea to the deployment of a fully functional solution,
+our software development services cover the entire spectrum. We engage in thorough
+planning, meticulous coding, rigorous testing, and seamless implementation.
+          </p>
+          <sapn class="left-timelineRow-arrow"></sapn>
+        </div>
+      </div>
+
+      <div class="timelineRow right-timelineRow time-item-4">
+        <img src="assets/service_all_icon/cutting-EdgeTechnologiesIcon.svg" alt="" />
+        <div class="text-box">
+          <h2>Cutting-Edge Technologies</h2>
+          <p>
+          Staying at the forefront of technological advancements is our ethos. Our developers
+utilize cutting-edge technologies to ensure that the solutions we deliver are not just
+contemporary but also future-proof.
+          </p>
+          <sapn class="right-timelineRow-arrow"></sapn>
+        </div>
+      </div>
+
+      <div class="timelineRow left-timelineRow time-item-5">
+        <img src="assets/service_all_icon/qualityAssuranceIcon.svg" alt="" />
+        <div class="text-box">
+          <h2>Quality Assurance</h2>
+          <p>
+          Quality is non-negotiable in our software development. Rigorous testing procedures are
+embedded in our workflow, guaranteeing the delivery of robust, reliable, and bug-free
+software solutions.
+          </p>
+          <sapn class="left-timelineRow-arrow"></sapn>
+        </div>
+      </div>
+
+      <div class="timelineRow right-timelineRow time-item-6">
+        <img src="assets/service_all_icon/continuousInnovationIcon.svg" alt="" />
+        <div class="text-box">
+          <h2>Continuous Innovation</h2>
+          <p>
+          Innovation is ingrained in our culture. We consistently seek new ways to enhance user
+experiences, optimize processes, and introduce features that keep our clients ahead in
+their respective industries.
+          </p>
+          <sapn class="right-timelineRow-arrow"></sapn>
+        </div>
+      </div>
+
+      <div class="timelineRow left-timelineRow time-item-7">
+        <img src="assets/service_all_icon/clientCollaborationIcon.svg" alt="" />
+        <div class="text-box">
+          <h2>Client Collaboration</h2>
+          <p>
+          We believe in collaborative development, engaging clients at every stage of the process.
+This ensures that the final product not only meets technical specifications but also aligns
+seamlessly with the client's vision and business objectives.
+          </p>
+          <sapn class="left-timelineRow-arrow"></sapn>
+        </div>
+      </div>
+
+      <div class="timelineRow right-timelineRow time-item-8">
+        <img src="assets/service_all_icon/industryFocusIcon.svg" alt="" />
+        <div class="text-box">
+          <h2>Industry Focus</h2>
+          <p>
+          Our software development expertise spans various industries, including finance,
+healthcare, retail, and more. This diversified experience enables us to address industryspecific challenges and deliver solutions that drive tangible business value.
+          </p>
+          <sapn class="right-timelineRow-arrow"></sapn>
+        </div>
+      </div>
+
+    </div>
+
+
 
     <div class="data_pipeline_area">
       <div class="data_pipeline_box center_content">
