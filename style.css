@@ -254,7 +254,7 @@
   }
 
   .timeline::after {
-    left: 31px;
+    left: 36px;
   }
 
   .timelineRow {
@@ -274,10 +274,11 @@
     left: 0;
   }
 
-  .left-timelineRow img,
-  .right-timelineRow img {
-    left: 0px;
-    width: 60px;
+  .left-timelineRow .Time-image,
+  .right-timelineRow .Time-image {
+    left: 10px;
+    width: 50px;
+    height: 50px;
   }
 
   .left-timelineRow-arrow,
