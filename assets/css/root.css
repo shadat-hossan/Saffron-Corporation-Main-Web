@@ -1,0 +1,23 @@
+:root {
+  --body: #fff;
+  --commonColor: #b50107; /* b50107 */
+  --textColor: #313131;
+  --textSemiColor: #000000;
+  --bottonGradiant: linear-gradient(103.94deg, #f3831f 25.63%, #da3d27 88.71%);
+  --boderReduceMain: 10px;
+  --boderReduceSemi: 5px;
+  --navfontSize: 12px;
+  --paragraphfont: 15px;
+  --h3font: 22px;
+  --fourFont: 400;
+  --fiveFont: 500;
+  --sixFont: 600;
+  --sevenFont: 700;
+  --titlefontSize: 22px;
+  --pfontSize: 14px;
+  --h2Fontsize: 2.1rem;
+  --h2ResponsivMobile: 1.2rem;
+  --h2ResponsivTab: 1.5rem;
+  --h3fontSize: 1.1rem;
+  --underLineColor: #b50107;
+}
