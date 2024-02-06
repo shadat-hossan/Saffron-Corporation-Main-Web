@@ -303,3 +303,30 @@
   left: 10%;
   bottom: 0;
 } */
+
+.blog-single-info h3 {
+  color: #4b4b4b;
+  font-size: 28px;
+  padding-bottom: 15px;
+}
+
+.blog-single-info ol,
+.blog-single-info ul {
+  padding: 0 0 26px 20px;
+}
+.blog-single-info ul li,
+.blog-single-info ul {
+  list-style-type: disc;
+}
+.blog-single-info ol li,
+.blog-single-info ol {
+  list-style-type: decimal;
+}
+.blog-single-infool li,
+.blog-single-info ul li {
+  color: #313131;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 3px;
+}
