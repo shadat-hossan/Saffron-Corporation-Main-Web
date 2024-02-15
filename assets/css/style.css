@@ -4328,7 +4328,7 @@ body {
   flex: 50%;
 }
 
-.jobCardBottom button {
+.jobCardBottom a {
   width: 100%;
   text-align: center;
   border: 1px solid #f05623;
@@ -4340,9 +4340,10 @@ body {
   cursor: pointer;
   transition: all 0.3s;
   color: #000;
+  display: block;
 }
 
-.jobCardBottom button:hover {
+.jobCardBottom a:hover {
   background: #f05623;
   color: #fff;
 }

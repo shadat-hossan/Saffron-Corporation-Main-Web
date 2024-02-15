@@ -24,7 +24,7 @@
   padding-bottom: 25px;
   margin-top: -10px;
 }
-.tx_404_box .red-button {
+.tx_404_box .red-.button {
   width: auto;
   border: 2px solid #b52025;
 }
@@ -329,4 +329,373 @@
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 3px;
+}
+
+/* =========== */
+
+.applyJobFormSection {
+  margin-top: 70px;
+}
+
+.applyJobExtraDesin {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 63%;
+  background: #ececec;
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px;
+  margin: 20px 0px;
+}
+
+.container header {
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0 0 35px 0;
+}
+
+.container .form-outer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.form-outer form {
+  display: flex;
+  width: 400%;
+}
+
+.container .frogres-bar {
+  display: flex;
+  margin: 40px 0;
+}
+
+.container .frogres-bar .stap {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.container .frogres-bar .stap p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  margin: 8px;
+}
+
+.frogres-bar .stap p.activerStap {
+  color: #25d366;
+}
+
+.container .frogres-bar .stap .bullet {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #000;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.2s;
+}
+
+.container .frogres-bar .stap .bullet.activerStap {
+  border-color: #25d366;
+  background: #25d366;
+}
+
+.container .frogres-bar .stap .bullet::before,
+.container .frogres-bar .stap .bullet::after {
+  position: absolute;
+  content: "";
+  width: 161px;
+  height: 3px;
+  background: #050505;
+  bottom: 9px;
+  right: -162px;
+}
+
+.container .frogres-bar .stap .bullet.activerStap::after {
+  background: #25d366;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: stapLine 0.3s linear forwards;
+}
+
+@keyframes stapLine {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.container .frogres-bar .stap:last-child .bullet::before,
+.container .frogres-bar .stap:last-child .bullet::after {
+  display: none;
+}
+
+.container .frogres-bar .stap .bullet span {
+  font-size: 17px;
+  line-height: 25px;
+  font-size: 500;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+
+.container .frogres-bar .stap .bullet.activerStap span {
+  display: none;
+}
+
+.container .frogres-bar .stap .check {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  font-size: 15px;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.container .frogres-bar .stap .check.activerStap {
+  display: block;
+  color: #fff;
+}
+
+.form-outer form .page {
+  width: 25%;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.form-outer form .page .title {
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.form-outer form .page .fild {
+  height: 45px;
+  width: 100%;
+  margin: 45px 0;
+  position: relative;
+  display: flex;
+}
+
+.form-outer form .page .fild .lable {
+  position: absolute;
+  left: 0;
+  top: -30px;
+  border-radius: 8px;
+}
+
+.upCV {
+  background-color: #c7c7c7;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.viewCVFile {
+  margin-top: 27px;
+  width: 100%;
+  text-align: left;
+  background: #00000017;
+  padding: 17px;
+  position: relative;
+  /* border: 1px solid #36e613; */
+  display: none;
+  border-radius: 3px;
+}
+
+.viewCVFile .showByfdfName {
+  position: absolute;
+  top: 14%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.viewCVFile .showByfdfName i {
+  color: #de2429;
+  font-size: 20px;
+}
+
+.viewCVFile .showByfdfName .pdfName {
+  font-size: 18px;
+}
+
+.form-outer form .page .fild input {
+  height: 100%;
+  width: 100%;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 500;
+  font-size: 17px;
+  color: #313131;
+  padding: 0 10px;
+}
+
+form .page .fild select {
+  width: 100%;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid lightblue;
+  outline: none;
+  padding: 0 10px;
+}
+
+.form-outer form .page .fild .button {
+  width: 100%;
+  height: calc(100% - 5px);
+  margin-top: -20px;
+  border: none;
+  background: #b9b9b9;
+  color: #444444;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-outer form .page .fild .btns .button {
+  margin-top: 20px !important;
+}
+
+form .page .fild .btns .button.prev {
+  margin-right: 3px;
+  font-size: 17px;
+}
+
+form .page .fild .btns .button.next {
+  margin-left: 3px;
+}
+
+.button.prev-1.prev {
+  margin-right: 10px;
+}
+
+.button.prev-2.prev {
+  margin-right: 10px;
+}
+
+.button.prev-3.prev {
+  margin-right: 10px;
+}
+/* ===================================================== */
+
+.drop-zone {
+  max-width: 200px;
+  height: 200px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #cccccc;
+  border: 4px dashed #009578;
+  border-radius: 10px;
+}
+
+.drop-zone--over {
+  border-style: solid;
+}
+
+.drop-zone__input {
+  display: none;
+}
+
+.drop-zone__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-size: cover;
+  position: relative;
+}
+
+.drop-zone__thumb::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  text-align: center;
+}
+
+input#file-upload {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+.inputCustom {
+  width: 170px;
+  height: 70px;
+  cursor: pointer;
+  position: relative;
+  border: 2px dashed blue !important;
+}
+.inputCustom p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cvUplodefild {
+  margin: 0;
+}
+
+.fild.cvUplodefild {
+  height: 70px !important;
+}
+
+#messages {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 414px) {
+  .container {
+    width: 90%;
+  }
+  .container .frogres-bar .stap .bullet::before,
+  .container .frogres-bar .stap .bullet::after {
+    width: 55px;
+    right: -57px;
+  }
+
+  .form-outer form .page .cvUplodefild {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inputCustom {
+    margin-bottom: 10px;
+  }
+
+  #messages li {
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+  }
 }
